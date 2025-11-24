@@ -1,0 +1,13 @@
+{
+  "name": "full-stack-project-root",
+  "scripts": {
+    "start-java": "cd \"pestofarm(liki backend)/pestofarm/ecommerce\" && mvn spring-boot:run",
+    "start-react": "cd \"pestofarm-new-react(13th Nov)\" && npm start",
+    "start-python": "cd \"NewChatbot/Liki-nlp-pesticide-chatbot/nlp-pesticide-chatbot\" && set PORT=5000 && python app.py",
+    "start-all": "concurrently --kill-others \"npm run start-java\" \"set PORT=3000 && npm run start-react\" \"npm run start-python\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "msw": "^2.12.2"
+  }
+}

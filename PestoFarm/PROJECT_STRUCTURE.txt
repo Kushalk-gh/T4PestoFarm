@@ -1,0 +1,182 @@
+PESTOFARM Project Structure:
+
+.
+├── .gitignore
+├── 14_TASKS_COMPLETION_REPORT.md
+├── 14_TASKS_COMPLETION_REPORT.md
+├── add_products.py
+├── BACKEND_API_SPECS.md
+├── CODE_REFERENCE.md
+├── COMPLETION_CHECKLIST.md
+├── comprehensive_api_test.py
+├── COMPREHENSIVE_TESTING_PLAN.md
+├── create_admin_user.py
+├── create_admin_user.sql
+├── create_test_users.py
+├── DELIVERABLES_LIST.md
+├── E2E_TESTING_AND_DEPLOYMENT_GUIDE.md
+├── FAVORITES_IMPLEMENTATION_COMPLETE.md
+├── FAVORITES_PAGE_CODE.md
+├── FRONTEND_TEST_PLAN.md
+├── IMPLEMENTATION_SUMMARY.md
+├── last_http_response.txt
+├── MIGRATION_PLAN.md
+├── package-lock.json
+├── package.json
+├── QUICK_START_GUIDE.md
+├── README_DOCUMENTATION.md
+├── README.md
+├── register_and_seed_seller.py
+├── register_seller.py
+├── seed_test_products.py
+├── seed_test_users.py
+├── start_backend.bat
+├── START_HERE.md
+├── test_chatbot_product_api.py
+├── test_password_change.py
+├── TODO.md
+├── Wishlist.txt
+├── NewChatbot
+│   └── Liki-nlp-pesticide-chatbot
+│       ├── nlp-pesticide-chatbot
+│       │   ├── chatbotMultiModel.py
+│       │   ├── seed_test_products.py
+│       │   └── (other files)
+│       └── (other files)
+├── pestofarm-new-react(13th Nov)
+│   ├── cypress
+│   │   ├── e2e
+│   │   │   └── spec.cy.js
+│   │   └── cypress.config.js
+│   ├── public
+│   │   └── (public files)
+│   ├── src
+│   │   ├── admin
+│   │   │   ├── AdminHome.tsx
+│   │   │   └── components
+│   │   │       └── ProductManagement.tsx
+│   │   ├── customer
+│   │   │   ├── components
+│   │   │   │   ├── AuthForm.tsx
+│   │   │   │   └── Navbar
+│   │   │   │       └── navbar.tsx
+│   │   │   ├── contexts
+│   │   │   │   ├── FavoritesContext.tsx
+│   │   │   │   └── OrderContext.tsx
+│   │   │   ├── pages
+│   │   │   │   ├── CustomerChat.tsx
+│   │   │   │   ├── CustomerProfile.tsx
+│   │   │   │   ├── Favorites.tsx
+│   │   │   │   ├── LocationPage.tsx
+│   │   │   │   ├── LoginNew.tsx
+│   │   │   │   ├── MyOrders.tsx
+│   │   │   │   └── ShippingInfo.tsx
+│   │   │   └── ProductSections.tsx
+│   │   ├── hooks
+│   │   │   └── useAuth.ts
+│   │   ├── mocks
+│   │   │   ├── handlers.ts
+│   │   │   └── server.ts
+│   │   ├── seller
+│   │   │   └── SellerProfile.tsx
+│   │   ├── services
+│   │   │   ├── adminService.ts
+│   │   │   ├── authService.ts
+│   │   │   ├── cartService.ts
+│   │   │   ├── favoritesService.ts
+│   │   │   ├── locationService.ts
+│   │   │   ├── orderService.ts
+│   │   │   ├── productService.ts
+│   │   │   ├── reviewService.ts
+│   │   │   └── sellerProductService.ts
+│   │   ├── config
+│   │   │   └── admins.ts
+│   │   ├── App.test.tsx
+│   │   ├── App.tsx
+│   │   ├── AuthContext.tsx
+│   │   ├── index.tsx
+│   │   └── package.json
+│   └── package.json
+├── pestofarm(liki backend)
+│   └── pestofarm
+│       └── ecommerce
+│           ├── src
+│           │   ├── main
+│           │   │   ├── java
+│           │   │   │   └── com
+│           │   │   │       └── pesticides
+│           │   │   │           ├── config
+│           │   │   │           │   ├── AdminSeeder.java
+│           │   │   │           │   ├── AppConfig.java
+│           │   │   │           │   ├── DataInitializer.java
+│           │   │   │           │   ├── JwtProvider.java
+│           │   │   │           │   ├── JwtTokenValidator.java
+│           │   │   │           │   └── (other config files)
+│           │   │   │           ├── controller
+│           │   │   │           │   ├── AdminController.java
+│           │   │   │           │   ├── AuthController.java
+│           │   │   │           │   ├── CartController.java
+│           │   │   │           │   ├── ProductController.java
+│           │   │   │           │   ├── ScientistController.java
+│           │   │   │           │   ├── SellerController.java
+│           │   │   │           │   ├── SellerProductController.java
+│           │   │   │           │   └── UserController.java
+│           │   │   │           ├── exception
+│           │   │   │           │   ├── CustomException.java
+│           │   │   │           │   ├── ErrorDetails.java
+│           │   │   │           │   ├── GlobalException.java
+│           │   │   │           │   ├── ProductException.java
+│           │   │   │           │   ├── SellerException.java
+│           │   │   │           │   └── UserException.java
+│           │   │   │           ├── modal
+│           │   │   │           │   ├── CartItem.java
+│           │   │   │           │   ├── PaymentDetails.java
+│           │   │   │           │   ├── Product.java
+│           │   │   │           │   ├── Role.java
+│           │   │   │           │   ├── ScientistReport.java
+│           │   │   │           │   ├── User.java
+│           │   │   │           │   ├── Wishlist.java
+│           │   │   │           │   └── (other modal files)
+│           │   │   │           ├── repository
+│           │   │   │           │   ├── RoleRepository.java
+│           │   │   │           │   ├── ScientistReportRepository.java
+│           │   │   │           │   └── (other repository files)
+│           │   │   │           ├── service
+│           │   │   │           │   ├── impl
+│           │   │   │           │   │   ├── AdminServiceImpl.java
+│           │   │   │           │   │   ├── AuthServiceImpl.java
+│           │   │   │           │   │   ├── CartItemServiceImpl.java
+│           │   │   │           │   │   ├── CartServiceImpl.java
+│           │   │   │           │   │   ├── MessageServiceImpl.java
+│           │   │   │           │   │   ├── ProductServiceImpl.java
+│           │   │   │           │   │   ├── RoleServiceImpl.java
+│           │   │   │           │   │   ├── ScientistReportServiceImpl.java
+│           │   │   │           │   │   ├── SellerServiceImpl.java
+│           │   │   │           │   │   ├── UserServiceImpl.java
+│           │   │   │           │   │   ├── WishlistServiceImpl.java
+│           │   │   │           │   │   └── (other impl files)
+│           │   │   │           │   ├── AdminService.java
+│           │   │   │           │   ├── ProductService.java
+│           │   │   │           │   ├── RoleService.java
+│           │   │   │           │   ├── ScientistReportService.java
+│           │   │   │           │   ├── SellerService.java
+│           │   │   │           │   ├── UserService.java
+│           │   │   │           │   └── (other service files)
+│           │   │   │           ├── domain
+│           │   │   │           │   └── USER_ROLE.java
+│           │   │   │           ├── request
+│           │   │   │           │   └── CreateProductRequest.java
+│           │   │   │           └── (other folders and files)
+│           │   └── test
+│           │       └── java
+│           │           └── com
+│           │               └── pesticides
+│           │                   └── controller
+│           │                       └── LocationControllerTest.java
+│           └── target
+│               └── classes
+│                   └── application.properties
+└── (Other files)
+
+
+
