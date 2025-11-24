@@ -1,0 +1,54 @@
+# .gitignore for PestoFarm project
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React build output
+build/
+dist/
+
+# IDE
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Sensitive files (remove from git tracking but not delete locally)
+remove_api_key_from_github.sh
+replace_text.txt
+
+# Java build and Eclipse
+target/
+*.class
+*.jar
+*.war
+*.ear
+.project
+.classpath
+.settings/
+
+# Other
+*.bak
+*.tmp
+.idea/
