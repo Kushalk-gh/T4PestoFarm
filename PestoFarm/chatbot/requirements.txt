@@ -1,0 +1,13 @@
+Flask==3.0.3
+flask-cors
+requests==2.31.0
+nltk==3.9.1
+numpy==2.3.2
+scikit-learn==1.7.1
+sentence-transformers
+speechrecognition
+gunicorn
+langdetect
+googletrans==4.0.0rc1
+certifi
+deep-translator

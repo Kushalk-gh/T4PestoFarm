@@ -1,0 +1,1238 @@
+{
+    "intents": [
+    {
+      "tag": "marigold_flower_blight",
+      "plant": "marigold",
+      "patterns": [
+        "Spots on petals",
+        "flower decay",
+        "color fading"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the disease Flower Blight is caused by Alternaria zinniae. Symptoms include spots on petals, flower decay, and color fading. Recommended pesticide is Dithane Z-78 (Mancozeb) with composition Mancozeb 75% WP and dosage 2 g per litre spray."
+        }
+      ]
+    },
+    {
+      "tag": "marigold_flower_bud_rot",
+      "plant": "marigold",
+      "patterns": [
+        "Shriveled and dark brown flower buds"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the disease Flower Bud Rot is caused by Alternaria dianthi. Symptoms include shriveled and dark brown flower buds. Recommended pesticide is Mancozeb with composition Mancozeb 75% WP and dosage 2 g per litre spray."
+        }
+      ]
+    },
+    {
+      "tag": "marigold_wilt_and_stem_rot",
+      "plant": "marigold",
+      "patterns": [
+        "Wilting",
+        "stem rot",
+        "yellowing leaves"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the disease Wilt and Stem Rot is caused by Phytophthora cryptogea. Symptoms include wilting, stem rot, and yellowing leaves. Recommended pesticide is Dithane Z-78 (Mancozeb) with composition Mancozeb 75% WP and dosage 2 g per litre spray."
+        }
+      ]
+    },
+    {
+      "tag": "marigold_collar_rot",
+      "plant": "marigold",
+      "patterns": [
+        "Root collar decay",
+        "plant death"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the disease Collar Rot is caused by Phytophthora spp. Symptoms include root collar decay and plant death. Recommended pesticide is Formalin soil treatment with composition Formalin 2% solution and dosage soil sterilization before sowing."
+        }
+      ]
+    },
+    {
+      "tag": "marigold_leaf_spots_and_blight",
+      "plant": "marigold",
+      "patterns": [
+        "Brown necrotic spots on leaves",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the disease Leaf Spots and Blight is caused by Alternaria, Cercospora, and Septoria species. Symptoms include brown necrotic spots on leaves and premature leaf drop. Recommended pesticide is Dithane M-45 (Mancozeb) with composition Mancozeb 75% WP and dosage 0.2% spray every fortnight."
+        }
+      ]
+    },
+    {
+      "tag": "marigold_powdery_mildew",
+      "plant": "marigold",
+      "patterns": [
+        "White powdery patches on aerial parts"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the disease Powdery Mildew is caused by Oidium sp. and Leveillula taurica. Symptoms include white powdery patches on aerial parts. Recommended pesticide is Sulfex (Sulfur) with composition Sulfur 3 g per litre water and dosage spray till control."
+        }
+      ]
+    },
+    {
+      "tag": "marigold_damping_off",
+      "plant": "marigold",
+      "patterns": [
+        "Necrotic spots on seedlings",
+        "collapse"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the disease Damping Off is caused by Pythium sp. and Rhizoctonia solani. Symptoms include necrotic spots on seedlings and collapse. Recommended treatment is Formalin soil sterilization before sowing and Dithane Z-78 foliar spray with composition Formalin 2% soil treatment and Dithane Z-78 2 g/l spray dosage."
+        }
+      ]
+    },
+    {
+      "tag": "marigold_aphids",
+      "plant": "marigold",
+      "patterns": [
+        "Sap sucking causing curling and weakening"
+      ],
+      "responses": [
+        {
+          "message": "For marigold, the pest Aphids causes sap sucking leading to curling and weakening of leaves. Symptoms include sap sucking damage, curling, and weakening of leaves. Recommended pesticides are Monocrotophos 36% SL @0.05%, Dimethoate 30% EC @0.03%, and Phosphamidon 40% SL @0.02%, with dosage spray every 10-15 days after infestation."
+        }
+      ]
+    },
+    {
+      "tag": "rose_black_spot",
+      "plant": "rose",
+      "patterns": [
+        "black spots on leaves",
+        "yellow halos",
+        "leaf drop",
+        "stunted growth",
+        "pale flowers"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the disease Black Spot is caused by Diplocarpon rosae (fungus). Symptoms include circular black spots on leaves with yellow edges, leaf drop, and reduced flowering. Recommended fungicides include Mancozeb, Chlorothalonil, Myclobutanil, or Propiconazole with compositions Mancozeb 75% WP, Chlorothalonil 75% WP, Myclobutanil 10% WP, Propiconazole 25% EC. Dosage: 2 g per litre spray for Mancozeb; follow label instructions for others."
+        }
+      ]
+    },
+    {
+      "tag": "rose_powdery_mildew",
+      "plant": "rose",
+      "patterns": [
+        "white powder on leaves",
+        "leaf curling",
+        "distorted leaves",
+        "poor growth"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the disease Powdery Mildew is caused by Sphaerotheca pannosa var. rosae. Symptoms include white powdery coating on leaves, shoots, and buds. Recommended fungicides are Sulfur, Karathane (Dicloran), or Myclobutanil with compositions Sulfur 80% WP, Dicloran 40% EC, Myclobutanil 10% WP. Dosage: Sulfur 3 g per litre; Karathane 0.5% spray; Myclobutanil per label."
+        }
+      ]
+    },
+    {
+      "tag": "rose_botrytis_blight",
+      "plant": "rose",
+      "patterns": [
+        "brown or gray fuzzy mold on petals",
+        "flower rot",
+        "blighted buds"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the disease Botrytis Blight (Gray Mold) is caused by Botrytis cinerea. Symptoms include brown, fuzzy mold on flowers and premature petal drop. Recommended fungicides are Chlorothalonil or Captan with compositions Chlorothalonil 75% WP, Captan 50% WP. Dosage: Apply every 7-10 days during wet conditions."
+        }
+      ]
+    },
+    {
+      "tag": "rose_rosette_disease",
+      "plant": "rose",
+      "patterns": [
+        "red, swollen, thickened stems",
+        "witches’ broom",
+        "distorted growth"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the disease Rose Rosette Disease is caused by Rose rosette virus spread by eriophyid mites. Symptoms include reddened terminal growth, thickened stems, and witches’ broom. Recommended pesticide is Bifenthrin to control the mite vector with composition Bifenthrin 25% EC. Dosage: Spray every 2 weeks from April to September."
+        }
+      ]
+    },
+    {
+      "tag": "rose_mosaic_virus",
+      "plant": "rose",
+      "patterns": [
+        "yellow wavy lines",
+        "ring spots",
+        "mosaic patterns",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the disease Rose Mosaic Virus is caused by Rose mosaic virus. Symptoms include yellow mottling, ringspots, and leaf distortion. No chemical control is available for this disease."
+        }
+      ]
+    },
+    {
+      "tag": "rose_aphids",
+      "plant": "rose",
+      "patterns": [
+        "aphids on new shoots",
+        "sticky honeydew",
+        "curled leaves"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the pest Aphids causes sap sucking which leads to leaf curl and stunted growth. Recommended pesticides are Neem Oil, Imidacloprid, Insecticidal Soap, or Bifenthrin with compositions Neem oil natural extracts, Imidacloprid 17.8% SL, Bifenthrin 25% EC. Dosage: Apply insecticidal soap every 5-7 days; systemic insecticides as per label."
+        }
+      ]
+    },
+    {
+      "tag": "rose_spider_mites",
+      "plant": "rose",
+      "patterns": [
+        "tiny webbing on undersides of leaves",
+        "yellow stippling on leaves",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the pest Spider Mites causes sap feeding leading to yellow spots and leaf drop. Recommended pesticides are Kelthane, Dicofol, or Abamectin with compositions Kelthane 18.5% EC, Dicofol 18.5% EC, Abamectin 1.9% EC. Dosage: Apply as per label when mites are detected."
+        }
+      ]
+    },
+    {
+      "tag": "rose_crown_gall",
+      "plant": "rose",
+      "patterns": [
+        "galls on roots or stems",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "For rose, the disease Crown Gall is caused by Agrobacterium tumefaciens. Symptoms include tumor-like galls on roots and stems. No chemical treatment is available for this disease."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_leaf_blight",
+      "plant": "jasmine",
+      "patterns": [
+        "reddish-brown spots on leaves",
+        "leaf curling",
+        "leaves drying from margins",
+        "young shoots drying"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, the disease Leaf Blight is caused by Cercospora jasminicola and Alternaria jasmini. Symptoms include circular reddish-brown spots that rapidly spread, leaf curling, drying, and reduced flower production. Recommended fungicides are Benlate (Benomyl 50% WP at 0.4% spray), Dithane M-45 (Mancozeb 75% WP at 0.2% spray), or Bordeaux mixture (Copper sulfate + lime at 0.1% spray)."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_rust",
+      "plant": "jasmine",
+      "patterns": [
+        "yellowish-orange pustules on leaves",
+        "distortion of leaves and buds"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, the disease Rust is caused by Uromyces hobsonii. Symptoms include yellow-orange pustules on the undersides of leaves, distortion of young twigs and buds. Recommended fungicides are Copper Oxychloride (50% WP at 0.3% spray), Mancozeb (75% WP at 0.2% spray), or Sulfur (20-25 kg/ha dusting)."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_wilt",
+      "plant": "jasmine",
+      "patterns": [
+        "wilted plants",
+        "leaves turning yellow",
+        "root blackening",
+        "white mycelia on roots"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, the disease Wilt (Sclerotial and Fusarium Wilt) is caused by Fusarium solani. Symptoms include plant wilting, black roots, white mycelia girdling roots, and sclerotia formation. Recommended fungicide is Bordeaux mixture (Copper sulfate + lime at 1% soil drench)."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_alternaria_leaf_blight",
+      "plant": "jasmine",
+      "patterns": [
+        "round dark spots on leaves",
+        "concentric rings",
+        "blighted stems and petioles"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, the disease Alternaria Leaf Blight is caused by Alternaria jasmini. Symptoms include dark brown spots with concentric rings and rapid leaf and stem blight. Recommended fungicides are Mancozeb (75% WP at 0.25% spray), Carbendazim (50% WP at 0.1% spray), or Copper Oxychloride (50% WP at 0.25% spray)."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_collar_rot",
+      "plant": "jasmine",
+      "patterns": [
+        "older leaves yellowing",
+        "plant death",
+        "black roots",
+        "white strands of mycelia on stem/root"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, the disease Collar Rot and Root Rot is caused by Sclerotium rolfsii. Symptoms include yellowing of older leaves, rapid plant death, black root discoloration, and white mycelial strands. Recommended fungicide is Copper sulfate 2 g + Lime 5 g per litre water as soil drench."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_red_spider_mite",
+      "plant": "jasmine",
+      "patterns": [
+        "tiny mites on leaves",
+        "leaf bronzing",
+        "webbing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, the pest Red Spider Mite feeds on sap, causing bronzing, yellowing, and premature leaf drop. Recommended pesticides are Fenazaquin (10% EC), Dicofol (18.5% EC at 5 g/litre spray), Abamectin (1.9% EC), Wettable Sulfur (3 g/litre), or NSKE (Neem Seed Kernel Extract at 5% spray)."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_budworm",
+      "plant": "jasmine",
+      "patterns": [
+        "bud damage",
+        "holes in buds",
+        "flowers failing to open",
+        "deformed flowers"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, bud damage is caused by Budworm, Blossom Midge, or Leaf Webworm. These pests bore into buds and flowers, causing deformities, leaf rolling, and webbing. Recommended pesticides are Chlorantraniliprole (18.5% SC), Monocrotophos (36% SL), Imidacloprid (17.8% SL), or Neem oil (Azadirachtin extract at 2-5 ml/litre spray)."
+        }
+      ]
+    },
+    {
+      "tag": "jasmine_root_knot_nematodes",
+      "plant": "jasmine",
+      "patterns": [
+        "leaves dropping",
+        "discoloration",
+        "galls on roots"
+      ],
+      "responses": [
+        {
+          "message": "For jasmine, the pest Root-knot Nematodes causes root galls, poor plant growth, leaf yellowing, and drop. Recommended treatments are Ferrous sulfate (5 g/litre foliar spray monthly) or Neem cake (organic neem seed powder mixed into soil)."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_leaf_blight",
+      "plant": "lotus",
+      "patterns": [
+        "brown spots on leaves",
+        "yellow halos around spots",
+        "leaf blight",
+        "leaf damage"
+      ],
+      "responses": [
+        {
+          "message": "For lotus, Leaf Blight is caused by fungal pathogens such as Alternaria spp. Symptoms include brown irregular spots with yellow halos on leaves leading to blight. Recommended pesticides are Mancozeb 75% WP at 2 g/litre spray or Copper Oxychloride 50% WP at 2.5 g/litre spray. Cultural management includes removing and destroying infected leaves, improving air circulation, and avoiding water splash on leaves."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_leaf_spot",
+      "plant": "lotus",
+      "patterns": [
+        "circular dark spots on leaves",
+        "spots with concentric rings",
+        "yellow discoloration",
+        "leaf margin burning"
+      ],
+      "responses": [
+        {
+          "message": "For lotus, Leaf Spot disease is caused by Cercospora and other fungal species. Symptoms include circular brown to dark spots with concentric rings and yellowed leaf margins. Recommended fungicides are Carbendazim 50% WP at 1 g/litre or Mancozeb 75% WP at 2 g/litre. Cultural control includes sanitation by removing fallen leaves and avoiding excessive humidity."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_wilt_disease",
+      "plant": "lotus",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "stem rot",
+        "black discoloration on roots and stem"
+      ],
+      "responses": [
+        {
+          "message": "Wilt disease in lotus is caused by Fusarium oxysporum and other soil-borne pathogens. Symptoms include wilting, yellowing leaves, and black rot on roots and stems. Recommended treatments include soil drenching with Carbendazim 1 g/litre and improving soil drainage. Avoid waterlogging and remove infected plants to manage the disease."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_powdery_mildew",
+      "plant": "lotus",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf curling",
+        "yellow spots on leaves",
+        "fuzzy white mold on plant"
+      ],
+      "responses": [
+        {
+          "message": "Powdery Mildew on lotus is caused by fungal species such as Oidium spp. Symptoms include white powdery patches on leaves, curling and yellowing. Recommended fungicides are Sulfur dust at 20-25 kg/ha or wettable sulfur 3 g/litre spray. Ensure good air circulation and avoid excessive humidity for cultural management."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_bud_borer",
+      "plant": "lotus",
+      "patterns": [
+        "buds not opening",
+        "holes in buds",
+        "bud dropping",
+        "deformed flowers"
+      ],
+      "responses": [
+        {
+          "message": "Bud borer is a common pest of lotus where larvae bore into buds causing damage. Symptoms include holes in buds, buds dropping before opening, and deformed flowers. Recommended insecticides include Chlorantraniliprole 18.5% SC and Neem oil sprays. Handpick damaged buds and use pheromone traps for monitoring as part of integrated pest management."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_red_spider_mite",
+      "plant": "lotus",
+      "patterns": [
+        "tiny webbing on leaves",
+        "yellow speckled leaves",
+        "leaf drop in dry weather"
+      ],
+      "responses": [
+        {
+          "message": "Red spider mite infestation causes yellow speckling and leaf drop in lotus. Recommended miticides include Kelthane 18.5% EC at 2 ml/litre and Dicofol 18.5% EC at 0.1% spray. Increase humidity and spray plants with water to reduce mite populations."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_mealybugs",
+      "plant": "lotus",
+      "patterns": [
+        "white cottony insects on stem and leaves",
+        "leaf curling",
+        "sticky honeydew",
+        "black sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Mealybugs on lotus are sap-sucking insects that produce honeydew and promote sooty mold. Recommended insecticides include Imidacloprid 17.8% SL systemic spray and Neem oil at 2-5 ml/litre. Prune infested parts and encourage natural predators for biological control."
+        }
+      ]
+    },
+    {
+      "tag": "lotus_root_rot_canker",
+      "plant": "lotus",
+      "patterns": [
+        "root blackening",
+        "cankers on stem base",
+        "yellowing leaves",
+        "plant collapse"
+      ],
+      "responses": [
+        {
+          "message": "Root rot and canker disease in lotus is caused by soil-borne fungi such as Sclerotium rolfsii. Symptoms include blackened roots, stem cankers, yellowing leaves, and plant collapse. Recommendations include soil drenching with Copper sulfate + lime solution and improving soil drainage. Avoid waterlogging and rotate crops to manage the disease."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_chlorotic_ringspot_virus",
+      "plant": "hibiscus",
+      "patterns": [
+        "yellow leaves",
+        "veiny or mottled foliage",
+        "leaf drop",
+        "distorted leaves"
+      ],
+      "responses": [
+        {
+          "message": "Hibiscus Chlorotic Ringspot Virus is caused by Chlorotic ringspot virus. Symptoms include mottled yellow leaves, circular yellow spots, and leaf distortion. No chemical treatment is available. Remove and destroy infected plants. Cultural management includes using virus-free planting material, sterilizing pruning tools, and not composting infected plants."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_leaf_spot",
+      "plant": "hibiscus",
+      "patterns": [
+        "dark spots on leaves",
+        "yellow halos around spots",
+        "leaf damage",
+        "leaves falling"
+      ],
+      "responses": [
+        {
+          "message": "Leaf Spot (Bacterial or Fungal) in hibiscus is caused by Pseudomonas cichorii, Xanthomonas spp., Cercospora spp. Symptoms are dark spots surrounded by yellow halos, possible merging, and leaf drop. Recommended pesticides include Copper Oxychloride 50% WP at 2.5 g/litre spray and Mancozeb 75% WP at 2 g/litre spray. Cultural management involves removing infected leaves, improving air circulation, and avoiding overhead watering."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_dieback_disease",
+      "plant": "hibiscus",
+      "patterns": [
+        "wilting branches",
+        "dieback of shoots",
+        "localized wilting",
+        "branch death"
+      ],
+      "responses": [
+        {
+          "message": "Dieback Disease in hibiscus is caused by Botryosphaeria spp. Symptoms include wilting on one branch and progressive death of shoots. Recommended pesticide is Copper Oxychloride 50% WP at 2.5 g/litre spray applied at new pruning cuts. Cultural management includes pruning affected branches and disinfecting pruning tools after each cut."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_wilt_disease",
+      "plant": "hibiscus",
+      "patterns": [
+        "wilted plant",
+        "yellowing foliage",
+        "rapid, sudden plant death"
+      ],
+      "responses": [
+        {
+          "message": "Wilt Disease in hibiscus is caused by Fusarium oxysporum. Symptoms include rapid wilting of the entire plant, yellowing leaves, and potential plant death. Recommended treatment is Carbendazim 50% WP at 1 g/litre soil drench. Cultural management involves improving soil drainage and removing infected plants."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_botrytis_blight",
+      "plant": "hibiscus",
+      "patterns": [
+        "flowers, buds, and leaves covered in gray fuzzy mold",
+        "water-soaked black spots",
+        "bud rot"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis Blight (Gray Mold) is caused by Botrytis cinerea. Symptoms include gray fuzzy mold on flowers, buds, and leaves, bud rot, and petal blight. Recommended pesticide is Captan 50% WP at 2 g/litre spray. Cultural management includes prompt deadheading and removal of faded flowers, and increasing air circulation around plants."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_mealybugs",
+      "plant": "hibiscus",
+      "patterns": [
+        "mealy white insects on stems/leaves",
+        "leaf curling/bunchy top",
+        "black sooty mold",
+        "stunted shoots"
+      ],
+      "responses": [
+        {
+          "message": "Mealybugs (Phenacoccus sp., Maconellicoccus hirsutus) suck sap causing leaf curling, bunchy tops, and promote sooty mold growth. Recommended insecticides include Imidacloprid 17.8% SL systemic spray at 1 ml/litre and Neem oil (Azadirachtin extract) at 2-5 ml/litre spray. Cultural management includes pruning and burying infested twigs and encouraging beneficial insects like ladybirds and parasitoids. Biological control involves using Anagyrus kamali parasites and Cryptolaemus montrouzieri ('mealybug destroyer') beetles."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_spider_mites",
+      "plant": "hibiscus",
+      "patterns": [
+        "tiny webbing on leaves",
+        "leaves yellow and stippled",
+        "leaf drop in dry weather"
+      ],
+      "responses": [
+        {
+          "message": "Spider Mites (Tetranychus spp.) feed on sap causing yellow stippling, leaf bronzing, and leaf drop. Recommended pesticides include Dicofol 18.5% EC at 2 ml/litre spray and Wettable sulfur (Sulfur 80% WP) at 2 g/litre spray. Cultural management advises increasing humidity, misting plants in dry weather, and regularly hosing down plants to remove mites."
+        }
+      ]
+    },
+    {
+      "tag": "hibiscus_flea_beetles_and_monolepta",
+      "plant": "hibiscus",
+      "patterns": [
+        "holes in leaves",
+        "eaten flowers and buds",
+        "chewed foliage"
+      ],
+      "responses": [
+        {
+          "message": "Flea Beetles and Monolepta beetles chew foliage, shredding leaves and flowers. Recommended insecticides include Beta-cyfluthrin (Baythroid), Bifenthrin, Imidacloprid, Chlorpyrifos, and Carbaryl used as per label instructions. Cultural management involves hand-picking beetles when infestations are small and rotating pesticide types to avoid resistance."
+        }
+      ]
+    },
+    {
+      "tag": "bougainvillea_leaf_spot",
+      "plant": "bougainvillea",
+      "patterns": [
+        "brown or black spots on leaves",
+        "yellow halos around spots",
+        "leaf blight",
+        "puckered or distorted leaf growth"
+      ],
+      "responses": [
+        {
+          "message": "Leaf Spot disease in bougainvillea is caused by fungal and bacterial pathogens such as Pseudomonas and Cercospora species. Symptoms include irregular brown or black spots, sometimes surrounded by yellow halos, with leaf puckering and distortion. Prevent leaf spot by removing infected leaves, improving air circulation, and avoiding overhead watering. Recommended fungicides are Mancozeb 75% WP at 2 g/litre spray or Copper Oxychloride 50% WP at 2.5 g/litre spray."
+        }
+      ]
+    },
+    {
+      "tag": "bougainvillea_root_rot",
+      "plant": "bougainvillea",
+      "patterns": [
+        "yellowing leaves",
+        "wilting",
+        "soil moisture high",
+        "roots decaying"
+      ],
+      "responses": [
+        {
+          "message": "Root rot in bougainvillea is caused by waterlogged soils, allowing fungal pathogens such as Phytophthora and Pythium to attack roots. Symptoms include yellowing leaves, wilting, and mushy decayed roots. Ensure well-draining soil and avoid overwatering to prevent root rot. Fungicidal drenches like metalaxyl or fosetyl-aluminium may be used as per label instructions if rot is detected."
+        }
+      ]
+    },
+    {
+      "tag": "bougainvillea_aphids",
+      "plant": "bougainvillea",
+      "patterns": [
+        "small green or brown insects on shoots",
+        "leaf curling or distortion",
+        "sticky leaves",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Aphids feed on tender growth of bougainvillea, causing leaf distortion and yellowing. They secrete honeydew which leads to sooty mold. Control aphids with insecticidal soaps, neem oil, or narrow-range oils ensuring thorough coverage. Encourage natural predators like ladybugs and lacewings for biological control."
+        }
+      ]
+    },
+    {
+      "tag": "bougainvillea_spider_mites",
+      "plant": "bougainvillea",
+      "patterns": [
+        "tiny webs on undersides of leaves",
+        "yellow stippled or bronzed leaves",
+        "leaf drop during dry weather"
+      ],
+      "responses": [
+        {
+          "message": "Spider mites infest bougainvillea causing yellowing, speckled bronzed leaves, and webbing. Increase humidity and spray miticides like dicofol or wettable sulfur as per label during infestation. Regularly hose down plants to keep mite populations low."
+        }
+      ]
+    },
+    {
+      "tag": "bougainvillea_caterpillars",
+      "plant": "bougainvillea",
+      "patterns": [
+        "chewed leaves",
+        "holes in foliage",
+        "defoliation",
+        "presence of caterpillar worms"
+      ],
+      "responses": [
+        {
+          "message": "Loopers and caterpillars feed on bougainvillea leaves causing defoliation and damage. Control by hand picking or use biological insecticides such as Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "bougainvillea_sooty_mold",
+      "plant": "bougainvillea",
+      "patterns": [
+        "black powdery coating on leaves",
+        "sticky leaves",
+        "presence of honeydew",
+        "reduced photosynthesis"
+      ],
+      "responses": [
+        {
+          "message": "Sooty mold develops on honeydew secreted by sap-sucking insects like aphids and mealybugs on bougainvillea. It reduces photosynthesis but does not infect plant tissue directly. Manage by controlling sap-sucking pests and cleaning leaves with soapy water."
+        }
+      ]
+    },
+    {
+      "tag": "bougainvillea_powdery_mildew",
+      "plant": "bougainvillea",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf distortion",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew on bougainvillea is a fungal disease that produces a white powdery coating on leaves. Symptoms include leaf distortion and premature leaf drop. Prevent powdery mildew by ensuring proper air circulation, avoiding overhead watering, and applying fungicide labeled for powdery mildew control."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_powdery_mildew",
+      "plant": "dahlia",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf distortion",
+        "dry leaf patches",
+        "reduced flowering"
+      ],
+      "responses": [
+        {
+          "message": "For dahlia, Powdery Mildew is a fungal disease common in warm, humid conditions. Symptoms include white powdery coating on leaves, leaf distortion, dry patches, and reduced flowering. Control powdery mildew by improving air circulation, avoiding overhead watering, and applying sulfur-based fungicides early."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_botrytis_gray_mold",
+      "plant": "dahlia",
+      "patterns": [
+        "gray fuzzy mold on flowers and leaves",
+        "brown spots on petals and stems",
+        "bud rot",
+        "rapid flower fading"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis (Gray Mold) is a common fungal disease of dahlia favored by cool, wet conditions. Symptoms include gray fuzzy mold on flowers and leaves, brown spots, and rapid fading of blooms. Remove infected plant parts promptly, increase air circulation, and apply fungicides as necessary."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_verticillium_wilt",
+      "plant": "dahlia",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "brown or black streaks on stems",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Verticillium wilt is a soil-borne fungal disease causing wilting, yellowing, and brown streaks on dahlia stems. No chemical cure; infected plants should be removed to prevent spread. Prevention includes crop rotation and planting resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_bacterial_leaf_spot",
+      "plant": "dahlia",
+      "patterns": [
+        "small dark spots on leaves",
+        "yellow halos around spots",
+        "leaf drop",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial leaf spot causes dark spots with yellow halos on dahlia leaves leading to defoliation. Spread occurs through water splash and contaminated tools. Remove and destroy infected leaves, and disinfect garden tools regularly."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_stem_rot",
+      "plant": "dahlia",
+      "patterns": [
+        "soft, mushy stems",
+        "blackened tissue",
+        "plant collapse",
+        "foul odor"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial stem rot is caused by Erwinia carotovora and characterized by soft, blackened stems with foul odor. Infected plants generally collapse and should be removed immediately."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_aphids",
+      "plant": "dahlia",
+      "patterns": [
+        "yellowed, curled leaves",
+        "sticky honeydew",
+        "presence of small green or black insects",
+        "sooty mold on leaves"
+      ],
+      "responses": [
+        {
+          "message": "Aphids suck sap from dahlia leaves causing yellowing, curling, and producing honeydew that supports sooty mold. Control aphids with insecticidal soap, neem oil, or systemic insecticides. Encourage natural predators such as ladybugs and lacewings."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_thrips",
+      "plant": "dahlia",
+      "patterns": [
+        "silvery streaks on leaves",
+        "deformed flowers",
+        "black specks on leaves",
+        "bud scarring"
+      ],
+      "responses": [
+        {
+          "message": "Thrips cause silvery streaks on leaves, deformed flowers, and black speckling on dahlia foliage. Control with insecticidal soaps or insecticides labeled for thrips."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_caterpillars",
+      "plant": "dahlia",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars",
+        "chewed flower petals"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on dahlia leaves and flowers causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "dahlia_mosaic_virus",
+      "plant": "dahlia",
+      "patterns": [
+        "mottled leaves",
+        "light and dark green stripes",
+        "stunted growth",
+        "reduced flower size"
+      ],
+      "responses": [
+        {
+          "message": "Dahlia mosaic virus causes mottled, striped leaves and stunted growth. Virus is spread by aphids and infected propagative material. Remove infected plants and disinfect tools. Use virus-free stock and control aphids."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_powdery_mildew",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf distortion",
+        "reduced plant vigor"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in chrysanthemum is caused by Golovinomyces cichoracearum fungus. Symptoms include white, powdery fungal growth on leaf surfaces causing distortion. Control by applying sulfur or captan fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_rust",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "brown pustules on leaf undersides",
+        "orange powdery spores",
+        "leaf weakening",
+        "poor flowering"
+      ],
+      "responses": [
+        {
+          "message": "Rust disease of chrysanthemum is caused by Puccinia chrysanthemi and Puccinia horiana fungi. Symptoms include brown pustules on leaf undersides with orange spores that weaken plants and reduce flowers. Manage with fungicides like azoxystrobin + difenoconazole and remove infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_wilt",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "yellowing and browning of leaves",
+        "leaf dieback",
+        "plant wilting",
+        "no flowering"
+      ],
+      "responses": [
+        {
+          "message": "Wilt caused by Fusarium oxysporum and Verticillium species leads to yellowing, browning, and wilting. Prevent wilt by using disease-free soil, crop rotation, and removing infected plants."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_botrytis_blight",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "light brown spots on petals",
+        "gray fuzzy mold on flowers and leaves",
+        "flower blight"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis blight caused by Botrytis cinerea affects chrysanthemum petals and leaves. Symptoms include light brown spots and gray fuzzy mold with rapid flower blight. Remove infected tissue and apply fungicides. Improve ventilation."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_bacterial_leaf_spot",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "dark spots on leaves",
+        "leaf drop",
+        "rapid spread"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial leaf spot caused by Pseudomonas cichorii creates dark spots leading to defoliation. Prevent with sanitation, removal of infected leaves, avoiding overhead watering, and copper sprays."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_aphids",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "clusters of small green insects",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold buildup"
+      ],
+      "responses": [
+        {
+          "message": "Aphids feed on chrysanthemum sap causing leaf curling and honeydew secretion leading to sooty mold. Control aphids with neem oil, insecticidal soaps, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_thrips",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "brown streaks on leaves",
+        "deformed buds and flowers",
+        "black specks on petals"
+      ],
+      "responses": [
+        {
+          "message": "Thrips cause damage to chrysanthemum foliage and flowers seen as brown streaks and bud deformation. Control using insecticidal soaps or appropriate insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "chrysanthemum_caterpillars",
+      "plant": "chrysanthemum",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on chrysanthemum leaves causing defoliation. Control by handpicking or with biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "carnation_fusarium_wilt",
+      "plant": "carnation",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "stunted growth",
+        "vascular discoloration",
+        "plant death"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in carnation is caused by Fusarium oxysporum f.sp. dianthi. Symptoms include slow wilting often starting on one side, yellowing and discoloration of leaves, stunted growth, and vascular browning in stems. Control approaches include using disease-free planting material, soil sterilization, crop rotation, and fungicide application with Carbendazim or Propiconazole. Maintain soil pH between 6.0 and 6.5 and avoid overwatering to reduce disease incidence."
+        }
+      ]
+    },
+    {
+      "tag": "carnation_rust",
+      "plant": "carnation",
+      "patterns": [
+        "yellowing leaves",
+        "raised brown spots on leaves and stems",
+        "leaf and stem pustules",
+        "reduced flowering"
+      ],
+      "responses": [
+        {
+          "message": "Rust in carnation is caused by the fungus Uromyces dianthi. Early symptoms are yellowing leaves followed by raised reddish-brown pustules on leaves and stems which may girdle stems. Manage rust by removing infected plant parts and spraying fungicides such as Mancozeb or Copper Oxychloride."
+        }
+      ]
+    },
+    {
+      "tag": "carnation_alternaria_blight",
+      "plant": "carnation",
+      "patterns": [
+        "purple to brown spots on leaves",
+        "enlarging necrotic lesions",
+        "leaf drop",
+        "stem lesions"
+      ],
+      "responses": [
+        {
+          "message": "Alternaria blight is caused by Alternaria dianthi fungus. Symptoms are purple spots progressing to necrotic lesions causing leaf and stem blight. Control by fungicidal sprays (Mancozeb, Carbendazim) and removal of infected debris."
+        }
+      ]
+    },
+    {
+      "tag": "carnation_bacterial_leaf_spot",
+      "plant": "carnation",
+      "patterns": [
+        "sunken necrotic leaf spots",
+        "water-soaked appearance",
+        "leaf drop",
+        "stem spotting"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial leaf spot caused by Pseudomonas syringae pv. woodsii affects carnation leaves and stems. Lesions are sunken, water-soaked and may coalesce causing leaf drop. Prevent by sanitation, removing infected leaves, avoiding overhead watering, and applying copper-based bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "carnation_root_rot",
+      "plant": "carnation",
+      "patterns": [
+        "brown, mushy roots",
+        "wilting plants",
+        "poor nutrient absorption"
+      ],
+      "responses": [
+        {
+          "message": "Root rot is caused by several soil pathogens including Sclerotium rolfsii. Symptoms include root decay, wilting, and yellowing above ground. Control includes good soil drainage, crop rotation, and fungicide soil drenches."
+        }
+      ]
+    },
+    {
+      "tag": "carnation_thrips",
+      "plant": "carnation",
+      "patterns": [
+        "silver streaks on leaves",
+        "deformed flower buds",
+        "black specks on flowers"
+      ],
+      "responses": [
+        {
+          "message": "Thrips feed on carnation foliage and buds causing silver discoloration and deformation. Control thrips using insecticidal soaps or targeted insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "carnation_aphids",
+      "plant": "carnation",
+      "patterns": [
+        "clusters of small green insects on new growth",
+        "sticky leaves",
+        "yellowed and curled leaves",
+        "sooty mold on leaves"
+      ],
+      "responses": [
+        {
+          "message": "Aphids suck sap causing leaf distortion and honeydew secretion leading to sooty mold. Manage aphids using neem oil, insecticidal soaps, or systemic insecticides and encourage natural predators like ladybugs."
+        }
+      ]
+    },
+    {
+      "tag": "tuberose_fusarium_wilt",
+      "plant": "tuberose",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stem rot",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in tuberose is caused by Fusarium oxysporum f.sp. tuberosi. Symptoms include wilting of leaves, yellowing, brown discoloration of vascular tissues, stem rot, and stunted growth. Use disease-free bulbs, soil sterilization, crop rotation, and fungicide applications such as Carbendazim for control."
+        }
+      ]
+    },
+    {
+      "tag": "tuberose_alternaria_blight",
+      "plant": "tuberose",
+      "patterns": [
+        "brown to black spots on leaves",
+        "leaf yellowing",
+        "leaf edge necrosis",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Alternaria blight on tuberose is caused by Alternaria alternata and Alternaria tuberosi. Symptoms include brown to black spots on leaves causing yellowing, necrosis at leaf edges, and leaf drop. Control includes fungicide sprays with Mancozeb or Carbendazim and sanitation by removing infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "tuberose_powdery_mildew",
+      "plant": "tuberose",
+      "patterns": [
+        "white powdery coating on leaves and buds",
+        "distorted leaves",
+        "stunted flowering"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in tuberose is caused by Oidium spp. Symptoms include white powdery coating on leaves and buds, leaf distortion, and sometimes poor flowering. Apply sulfur-based fungicides and maintain good air circulation for control."
+        }
+      ]
+    },
+    {
+      "tag": "tuberose_bacterial_soft_rot",
+      "plant": "tuberose",
+      "patterns": [
+        "soft, watery rot at the bulb base",
+        "foul odor",
+        "leaf yellowing",
+        "plant collapse"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial soft rot caused by Erwinia spp. leads to watery rot at the tuberose bulb base. Symptoms include foul-smelling soft rot, yellowing leaves, and plant collapse. Avoid excessive soil moisture, use clean planting materials, and apply appropriate bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "tuberose_thrips",
+      "plant": "tuberose",
+      "patterns": [
+        "distorted flower buds",
+        "scarring on buds",
+        "silver streaks on leaves"
+      ],
+      "responses": [
+        {
+          "message": "Thrips damage tuberose by feeding on flower buds and leaves causing distortion and scarring. Control with insecticidal soaps, neem oil sprays, or recommended insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "tuberose_aphids",
+      "plant": "tuberose",
+      "patterns": [
+        "clusters of small insects on stems",
+        "sticky honeydew",
+        "leaf curling and yellowing"
+      ],
+      "responses": [
+        {
+          "message": "Aphids suck sap from tuberose plants causing leaf curl, yellowing, and secretion of honeydew. Manage aphids with neem oil, insecticidal soaps, or systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "tuberose_mealybugs",
+      "plant": "tuberose",
+      "patterns": [
+        "white cottony insects on stems and leaves",
+        "leaf yellowing",
+        "plant weakening"
+      ],
+      "responses": [
+        {
+          "message": "Mealybugs infest tuberose stems and leaves, causing yellowing and plant weakening. Control by pruning affected areas and applying neem oil or insecticidal soaps."
+        }
+      ]
+    },
+    {
+      "tag": "geranium_bacterial_blight",
+      "plant": "geranium",
+      "patterns": [
+        "small water-soaked spots on leaf undersides",
+        "brown angular leaf spots",
+        "wilted leaf margins",
+        "stem blackening",
+        "branch dieback"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial blight in geranium is caused by Xanthomonas campestris pv. pelargonii. Symptoms include water-soaked angular spots on leaf undersides, wilting margins, brown stem discoloration, and branch dieback. Control by using disease-free plants, practicing good sanitation, avoiding overhead irrigation, and applying copper-based bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "geranium_blackleg",
+      "plant": "geranium",
+      "patterns": [
+        "brown water-soaked rot at stem base",
+        "blackened stem portion",
+        "rapid plant death",
+        "failure of cuttings to root"
+      ],
+      "responses": [
+        {
+          "message": "Blackleg disease in geraniums is caused by Pythium species. Symptoms include brown wet rot at the stem base leading to blackening and rapid death of plants, especially young cuttings. Prevent this disease by using sterile propagation media, disinfecting tools, and avoiding overwatering."
+        }
+      ]
+    },
+    {
+      "tag": "geranium_botrytis_blight",
+      "plant": "geranium",
+      "patterns": [
+        "gray fuzzy mold on leaves and flowers",
+        "flower blight",
+        "leaf spots",
+        "premature leaf and flower drop"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis blight in geranium is caused by Botrytis cinerea. Symptoms include gray fuzzy mold on leaves and flowers, blighted flowers, and premature dropping. Control by removing infected tissue and applying fungicides such as captan."
+        }
+      ]
+    },
+    {
+      "tag": "geranium_rust",
+      "plant": "geranium",
+      "patterns": [
+        "orange pustules on leaf undersides",
+        "yellow halos on upper leaf surface",
+        "leaf weakening",
+        "poor flowering"
+      ],
+      "responses": [
+        {
+          "message": "Rust disease on geranium is caused by Puccinia pelargonii-zonalis. Symptoms include orange rust pustules on leaf undersides with yellow halos on top, weakening the plant and reducing flowers. Control rust by applying fungicides and removing infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "geranium_edema",
+      "plant": "geranium",
+      "patterns": [
+        "blister-like water-soaked lesions on leaf undersides",
+        "corky brown pustules",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Edema in geranium is a physiological disorder caused by excess water uptake relative to transpiration. Symptoms include water-soaked blisters on leaf undersides that become corky brown pustules followed by leaf drop. Control edema by improving air circulation, reducing watering frequency, and ensuring proper pot drainage."
+        }
+      ]
+    },
+    {
+      "tag": "geranium_aphids",
+      "plant": "geranium",
+      "patterns": [
+        "clusters of tiny green or black insects on stems",
+        "sticky honeydew on leaves",
+        "leaf curling",
+        "black sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Aphids feed on geranium sap causing leaf curling and honeydew secretion that promotes sooty mold development. Control aphids using insecticidal soap, neem oil, or systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "geranium_leaf_spot",
+      "plant": "geranium",
+      "patterns": [
+        "round dark spots on leaves",
+        "yellow halos",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Leaf spot in geranium is caused by fungal pathogens such as Alternaria alternata. Symptoms include dark round spots surrounded by yellow halos causing leaf yellowing and drop. Control by removing infected leaves and applying appropriate fungicides."
+        }
+      ]
+    }
+     ]
+     }
+

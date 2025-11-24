@@ -1,0 +1,189 @@
+
+{
+  "intents": [
+    
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Greetings",
+        "What's up",
+        "How are you?",
+        "is anyone there?",
+        "hey there"
+      ],
+      "responses": [
+        {
+          "message": "Hello! I am the Pesticide Recommendation Chatbot. How can I help you?"
+        },
+        {
+          "message": "Hi there! What can I do for you?"
+        },
+        {
+          "message": "Greetings! I'm here to help."
+        }
+      ]
+    },
+    {
+      "tag": "pesticide_advice",
+      "patterns": [
+        "how to apply pesticides",
+        "pesticide application",
+        "best time for pesticides",
+        "when to use pesticides",
+        "pesticide advice",
+        "pesticide recommendations"
+      ],
+      "responses": [
+        {
+          "message": "The best time to apply pesticides is early in the morning or late in the evening."
+        },
+        {
+          "message": "Applying pesticides is most effective when plants are dry."
+        }
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather",
+        "How is the weather",
+        "Tell me about the weather",
+        "weather today",
+        "weather tomorrow",
+        "weather in",
+        "weather for"
+      ],
+      "responses": [
+        {
+          "message": "I'm ready to fetch the weather details. Please make sure the city name is entered in the city box."
+        }
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "much appreciated",
+        "thanks a lot"
+      ],
+      "responses": [
+        {
+          "message": "You're welcome! Is there anything else I can assist you with?"
+        }
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see ya",
+        "i'm leaving",
+        "got to go",
+        "tata",
+        "bye bye",
+        "farewell"
+      ],
+      "responses": [
+        {
+          "message": "Goodbye! Have a great day."
+        },
+        {
+          "message": "Bye! Feel free to return if you need more help."
+        }
+      ]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": [
+        "recommend seeds",
+        "suggest seeds",
+        "which seeds should I buy",
+        "what seeds are available",
+        "show me seeds",
+        "best seeds",
+        "quality seeds",
+        "where to buy seeds",
+        "recommend products",
+        "suggest products",
+        "what products do you have",
+        "show me products",
+        "available products",
+        "buy seeds online"
+      ],
+      "responses": [
+        {
+          "message": "I can help you find the perfect seeds! Let me show you our available products.",
+          "details": "Browse our collection of high-quality flower, fruit, and vegetable seeds at PestoFarm."
+        },
+        {
+          "message": "Great! I'll recommend some quality seeds for you.",
+          "details": "Check out our product catalog for the latest seeds and agricultural supplies."
+        }
+      ]
+    },
+    {
+      "tag": "plant_recommendations",
+      "patterns": [
+        "what should I plant",
+        "what to grow",
+        "what plants are good for beginners",
+        "easiest plants to grow",
+        "low maintenance plants",
+        "plants for my area",
+        "growing guide",
+        "best time to plant",
+        "how to start gardening"
+      ],
+      "responses": [
+        {
+          "message": "I can recommend plants based on your preferences! What type of plants interest you - flowers, vegetables, or fruits?"
+        },
+        {
+          "message": "Great question! Let me suggest some plants that would work well for you."
+        }
+      ]
+    },
+    {
+      "tag": "pest_control",
+      "patterns": [
+        "how to treat plant diseases",
+        "plant is dying",
+        "pest infestation",
+        "yellow leaves",
+        "brown spots on leaves",
+        "plant health",
+        "what's wrong with my plant",
+        "disease symptoms",
+        "how to prevent plant diseases"
+      ],
+      "responses": [
+        {
+          "message": "Plant health issues can often be resolved! Can you describe what you see or upload a photo for analysis?"
+        },
+        {
+          "message": "I'm here to help diagnose plant problems. Please share more details or upload an image of the affected area."
+        }
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        {
+          "message": "I'm sorry, I don't understand your query. Could you please rephrase it?"
+        },
+        {
+          "message": "I'm not sure how to respond to that. Please try asking in a different way."
+        }
+      ]
+    }
+  ]
+}

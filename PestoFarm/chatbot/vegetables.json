@@ -1,0 +1,2532 @@
+{
+     "intents":[
+    {
+      "tag": "potato_late_blight",
+      "plant": "potato",
+      "patterns": [
+        "dark brown to black lesions on leaves",
+        "water-soaked spots on stems",
+        "white fungal growth underside leaves",
+        "tuber rot"
+      ],
+      "responses": [
+        {
+          "message": "Late blight in potato is caused by Phytophthora infestans. Symptoms include dark brown to black lesions on leaves, water-soaked spots on stems, white fungal growth on leaf undersides, and tuber rot. Control by applying fungicides such as Mancozeb, Metalaxyl, or Chlorothalonil, practicing crop rotation, and removing infected plant debris."
+        }
+      ]
+    },
+    {
+      "tag": "potato_early_blight",
+      "plant": "potato",
+      "patterns": [
+        "brown to black circular lesions on leaves",
+        "leaf yellowing",
+        "leaf drop",
+        "stem lesions"
+      ],
+      "responses": [
+        {
+          "message": "Early blight in potato is caused by Alternaria solani. Symptoms include brown to black circular lesions with concentric rings on leaves, leaf yellowing, leaf drop, and stem lesions. Manage early blight using fungicides such as Chlorothalonil or Mancozeb, crop rotation, and removal of infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "potato_black_leg",
+      "plant": "potato",
+      "patterns": [
+        "blackened, soft rot at stem base",
+        "plant wilting",
+        "toppling of plants",
+        "foul smell"
+      ],
+      "responses": [
+        {
+          "message": "Blackleg in potato is caused by Pectobacterium spp. (formerly Erwinia). Symptoms include blackened soft rot at stem base, wilting and toppling of plants, and foul odor. Control by planting certified disease-free seed, avoiding injury to tubers, and ensuring good drainage."
+        }
+      ]
+    },
+    {
+      "tag": "potato_common_scab",
+      "plant": "potato",
+      "patterns": [
+        "rough, corky lesions on tubers",
+        "surface scabs",
+        "reduced tuber quality"
+      ],
+      "responses": [
+        {
+          "message": "Common scab in potato is caused by Streptomyces species. Symptoms include rough, corky lesions on tuber surfaces, reducing tuber quality. Prevent common scab by maintaining soil moisture during tuber formation and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "potato_black_dot",
+      "plant": "potato",
+      "patterns": [
+        "small black dots on tuber surface",
+        "superficial dark lesions",
+        "no internal damage"
+      ],
+      "responses": [
+        {
+          "message": "Black dot disease is caused by Colletotrichum coccodes. Symptoms are small black dots on tuber surfaces causing superficial dark lesions with no internal damage. Control with crop rotation, fungicide application, and removing infected debris."
+        }
+      ]
+    },
+    {
+      "tag": "potato_grey_mold",
+      "plant": "potato",
+      "patterns": [
+        "gray fuzzy mold on stems and leaves",
+        "flower and leaf blight",
+        "tuber decay"
+      ],
+      "responses": [
+        {
+          "message": "Grey mold in potato is caused by Botrytis cinerea. Symptoms include gray fuzzy mold on stems, leaves, flower blight, and tuber decay. Manage by improving ventilation, removing infected tissue, and applying appropriate fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "potato_aphids",
+      "plant": "potato",
+      "patterns": [
+        "clusters of small green insects on stems",
+        "honeydew secretion",
+        "yellowed, curled leaves",
+        "presence of sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Aphids commonly infest potato plants causing sap sucking, leaf curling, honeydew secretion, and sooty mold. Control aphids using insecticidal soaps, neem oil, or systemic insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "potato_wireworm",
+      "plant": "potato",
+      "patterns": [
+        "holes in tubers",
+        "tunneling",
+        "poor tuber quality"
+      ],
+      "responses": [
+        {
+          "message": "Wireworms are larvae that feed on potato tubers causing holes and tunneling. Manage wireworms by crop rotation, soil treatment, and use of insecticides if necessary."
+        }
+      ]
+    },
+    {
+      "tag": "onion_downy_mildew",
+      "plant": "onion",
+      "patterns": [
+        "pale yellow spots on leaves",
+        "grayish-purple fuzzy growth on leaf undersides",
+        "leaf curling and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in onion is caused by Peronospora destructor. Symptoms include pale yellow spots on leaves, grayish-purple fuzzy growth on leaf undersides, and leaf curling and dieback. Control by applying fungicides such as metalaxyl or mancozeb, ensuring good air circulation, and avoiding overhead irrigation."
+        }
+      ]
+    },
+    {
+      "tag": "onion_necrotic_spot",
+      "plant": "onion",
+      "patterns": [
+        "small brown to black spots on leaves",
+        "leaf tip necrosis",
+        "yellowing around spots",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Necrotic spot in onion is caused by Alternaria porri. Symptoms include small brown to black spots on leaves with yellowing and leaf tip necrosis leading to premature leaf drop. Manage using fungicides like mancozeb and removing infected plant debris."
+        }
+      ]
+    },
+    {
+      "tag": "onion_white_rot",
+      "plant": "onion",
+      "patterns": [
+        "yellowing and wilting of leaves",
+        "white fluffy fungal growth at bulb base",
+        "bulb rot and decay"
+      ],
+      "responses": [
+        {
+          "message": "White rot in onion is caused by Sclerotium cepivorum. Symptoms include yellowing and wilting of leaves, white fluffy fungal growth at bulb base, and bulb rot. Control by crop rotation, fungicide soil treatment, and planting disease-free sets."
+        }
+      ]
+    },
+    {
+      "tag": "onion_bacterial_soft_rot",
+      "plant": "onion",
+      "patterns": [
+        "soft, watery rot of bulbs",
+        "foul odor",
+        "yellowing and collapsing leaves"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial soft rot in onion is caused by Pectobacterium carotovorum. Symptoms include soft, watery rot of bulbs with foul odor and yellowing, collapsing leaves. Control by avoiding bulb injury, proper storage conditions, and use of bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "onion_thrips",
+      "plant": "onion",
+      "patterns": [
+        "yellow or silver streaks on leaves",
+        "leaf curling",
+        "stunted growth",
+        "reduced bulb size"
+      ],
+      "responses": [
+        {
+          "message": "Thrips infestation in onion causes yellow or silver streaks on leaves, leaf curling, stunted growth, and reduced bulb size. Control using insecticidal soaps, neem oil sprays, or recommended insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "onion_aphids",
+      "plant": "onion",
+      "patterns": [
+        "clusters of small green insects on leaves and stems",
+        "sticky honeydew",
+        "leaf curling and yellowing",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids suck sap from onion leaves and stems causing leaf curling, yellowing, sticky honeydew, and promoting sooty mold growth. Control aphids with insecticidal soaps, neem oil, or systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "onion_fusarium_baseline_rot",
+      "plant": "onion",
+      "patterns": [
+        "yellowing and wilting leaves",
+        "brown discoloration at base of bulb",
+        "soft, rotten bulbs"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium basal rot in onion is caused by Fusarium oxysporum f.sp. cepae. Symptoms include yellowing and wilting leaves, brown discoloration at bulb base, and soft, rotten bulbs. Control by planting disease-free seed, crop rotation, and fungicide soil treatment."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_late_blight",
+      "plant": "tomato",
+      "patterns": [
+        "dark brown to black lesions on leaves",
+        "water-soaked spots on stems",
+        "white fungal growth underside leaves",
+        "fruit rot"
+      ],
+      "responses": [
+        {
+          "message": "Late blight in tomato is caused by Phytophthora infestans. Symptoms include dark brown to black lesions on leaves, water-soaked spots on stems, white fungal growth on leaf undersides, and fruit rot. Control by applying fungicides such as Mancozeb, Metalaxyl, or Chlorothalonil, practicing crop rotation, and removing infected plant debris."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_early_blight",
+      "plant": "tomato",
+      "patterns": [
+        "brown to black circular lesions on leaves",
+        "leaf yellowing",
+        "leaf drop",
+        "stem lesions"
+      ],
+      "responses": [
+        {
+          "message": "Early blight in tomato is caused by Alternaria solani. Symptoms include brown to black circular lesions with concentric rings on leaves, leaf yellowing, leaf drop, and stem lesions. Manage early blight using fungicides such as Chlorothalonil or Mancozeb, crop rotation, and removal of infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_bacterial_spot",
+      "plant": "tomato",
+      "patterns": [
+        "small water-soaked spots on leaves",
+        "dark brown lesions on stems",
+        "fruit spots",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial spot in tomato is caused by Xanthomonas spp. Symptoms include small water-soaked spots on leaves, dark brown lesions on stems, fruit spots, and leaf drop. Control by using disease-free seed, copper-based bactericides, and practicing good sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_fusarium_wilt",
+      "plant": "tomato",
+      "patterns": [
+        "yellowing leaves",
+        "wilting plants",
+        "brown discoloration in vascular tissue",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in tomato is caused by Fusarium oxysporum f.sp. lycopersici. Symptoms include yellowing leaves, wilting, brown discoloration in vascular tissue, and stunted growth. Control by planting resistant varieties, crop rotation, and using fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_verticillium_wilt",
+      "plant": "tomato",
+      "patterns": [
+        "wilting plants",
+        "yellowing lower leaves",
+        "vascular browning",
+        "plant decline"
+      ],
+      "responses": [
+        {
+          "message": "Verticillium wilt in tomato is caused by Verticillium spp. Symptoms include wilting, yellowing of lower leaves, vascular browning, and plant decline. Manage through crop rotation and resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_powdery_mildew",
+      "plant": "tomato",
+      "patterns": [
+        "white powdery spots on leaves",
+        "leaf curling",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in tomato is caused by Oidium spp. Symptoms include white powdery spots on leaves, leaf curling, and premature leaf drop. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_botrytis_blight",
+      "plant": "tomato",
+      "patterns": [
+        "gray fuzzy mold on leaves and stems",
+        "flower and fruit blight",
+        "stem lesions"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis blight (gray mold) in tomato is caused by Botrytis cinerea. Symptoms include gray fuzzy mold on leaves and stems, flower and fruit blight, and stem lesions. Control by removing infected tissues and applying fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_aphids",
+      "plant": "tomato",
+      "patterns": [
+        "clusters of small green insects",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest tomato plants causing sap sucking, leaf curling, sticky honeydew, and sooty mold growth. Control aphids using insecticidal soaps, neem oil, or systemic insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "tomato_whiteflies",
+      "plant": "tomato",
+      "patterns": [
+        "small white flying insects",
+        "yellowing leaves",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Whiteflies on tomato cause yellowing leaves, honeydew secretion leading to sooty mold, and vector viral diseases. Control by using yellow sticky traps, insecticidal soaps, and encouraging natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_early_blight",
+      "plant": "brinjal",
+      "patterns": [
+        "brown to black circular lesions on leaves",
+        "leaf yellowing",
+        "leaf drop",
+        "stem lesions"
+      ],
+      "responses": [
+        {
+          "message": "Early blight in brinjal is caused by Alternaria solani. Symptoms include brown to black circular lesions with concentric rings on leaves, leaf yellowing, leaf drop, and stem lesions. Manage early blight using fungicides such as Chlorothalonil or Mancozeb, crop rotation, and removal of infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_fusarium_wilt",
+      "plant": "brinjal",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "brown discoloration in vascular tissue",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in brinjal is caused by Fusarium oxysporum f.sp. melongenae. Symptoms include wilting, yellowing of leaves, brown discoloration in vascular tissue, and stunted growth. Control by planting resistant varieties, crop rotation, and fungicide application."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_bacterial_spot",
+      "plant": "brinjal",
+      "patterns": [
+        "small water-soaked spots on leaves",
+        "dark brown lesions on stems",
+        "fruit spots",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial spot in brinjal is caused by Xanthomonas vesicatoria. Symptoms include small water-soaked spots on leaves, dark brown lesions on stems, fruit spots, and leaf drop. Control by using disease-free seed, copper-based bactericides, and practicing good sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_powdery_mildew",
+      "plant": "brinjal",
+      "patterns": [
+        "white powdery spots on leaves",
+        "leaf distortion",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in brinjal is caused by Oidium spp. Symptoms include white powdery spots on leaves, leaf distortion, and premature leaf drop. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_anthracnose",
+      "plant": "brinjal",
+      "patterns": [
+        "dark sunken lesions on fruits",
+        "leaf spots",
+        "fruit rot"
+      ],
+      "responses": [
+        {
+          "message": "Anthracnose in brinjal is caused by Colletotrichum spp. Symptoms include dark sunken lesions on fruits, leaf spots, and fruit rot. Control by removing infected fruits, applying fungicides, and maintaining field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_aphids",
+      "plant": "brinjal",
+      "patterns": [
+        "clusters of small green insects on stems and leaves",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold development"
+      ],
+      "responses": [
+        {
+          "message": "Aphids suck sap causing leaf curling, honeydew secretion, and sooty mold development on brinjal. Control aphids using insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_whiteflies",
+      "plant": "brinjal",
+      "patterns": [
+        "small white flying insects on undersides of leaves",
+        "yellowing leaves",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Whiteflies infest brinjal leaves causing yellowing, honeydew secretion leading to sooty mold, and can transmit viral diseases. Control by using yellow sticky traps, insecticidal soaps, and introducing natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "brinjal_cercospora_leaf_spot",
+      "plant": "brinjal",
+      "patterns": [
+        "small circular spots with gray centers",
+        "dark margins on leaves",
+        "leaf yellowing and drop"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in brinjal is caused by Cercospora spp. Symptoms include small circular spots with gray centers and dark margins causing leaf yellowing and drop. Control by removing infected leaves and applying appropriate fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_black_rot",
+      "plant": "cabbage",
+      "patterns": [
+        "yellow V-shaped lesions on leaf edges",
+        "blackening of veins",
+        "leaf yellowing and wilting",
+        "soft rot in vascular tissues"
+      ],
+      "responses": [
+        {
+          "message": "Black rot in cabbage is caused by Xanthomonas campestris pv. campestris. Symptoms include yellow V-shaped lesions on leaf edges, blackening of veins, leaf yellowing and wilting, and soft rot in vascular tissues. Control by using disease-free seed, crop rotation, and copper-based bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_downy_mildew",
+      "plant": "cabbage",
+      "patterns": [
+        "yellow patches on upper leaf surface",
+        "white downy growth on underside of leaves",
+        "leaf curling and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in cabbage is caused by Peronospora brassicae. Symptoms include yellow patches on upper leaf surface, white downy growth on underside of leaves, leaf curling and dieback. Control by applying fungicides such as mancozeb or metalaxyl, improving air circulation, and avoiding overhead irrigation."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_cercospora_leaf_spot",
+      "plant": "cabbage",
+      "patterns": [
+        "small circular spots with gray centers",
+        "brown to black margins",
+        "leaf yellowing and dropping"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in cabbage is caused by Cercospora brassicae. Symptoms include small circular spots with gray centers and brown to black margins causing leaf yellowing and dropping. Control by removing infected leaves and applying fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_clubroot",
+      "plant": "cabbage",
+      "patterns": [
+        "swollen, distorted roots",
+        "wilting plants",
+        "stunted growth",
+        "yellowing leaves"
+      ],
+      "responses": [
+        {
+          "message": "Clubroot in cabbage is caused by Plasmodiophora brassicae. Symptoms include swollen, distorted roots, wilting plants, stunted growth, and yellowing leaves. Control by crop rotation, liming soil to increase pH, and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_powdery_mildew",
+      "plant": "cabbage",
+      "patterns": [
+        "white powdery growth on leaves",
+        "leaf curling",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in cabbage is caused by Erysiphe cruciferarum. Symptoms include white powdery growth on leaves, leaf curling, and premature leaf drop. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_blight",
+      "plant": "cabbage",
+      "patterns": [
+        "brown to black lesions on leaves",
+        "leaf blight",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Blight in cabbage is caused by Alternaria brassicae. Symptoms include brown to black lesions on leaves, leaf blight, and defoliation. Manage blight by fungicide applications and field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_aphids",
+      "plant": "cabbage",
+      "patterns": [
+        "clusters of small green or gray insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest cabbage causing leaf curling, sticky honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, or systemic insecticides and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "cabbage_cabbage_worm",
+      "plant": "cabbage",
+      "patterns": [
+        "holes in leaves",
+        "chewed foliage",
+        "presence of green caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Cabbage worms (larvae of Pieris brassicae) feed on cabbage leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_black_rot",
+      "plant": "cauliflower",
+      "patterns": [
+        "yellow V-shaped lesions on leaf edges",
+        "blackening of veins",
+        "leaf yellowing and wilting",
+        "soft rot in vascular tissues"
+      ],
+      "responses": [
+        {
+          "message": "Black rot in cauliflower is caused by Xanthomonas campestris pv. campestris. Symptoms include yellow V-shaped lesions on leaf edges, blackening of veins, leaf yellowing and wilting, and soft rot in vascular tissues. Control by using disease-free seed, crop rotation, and copper-based bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_downy_mildew",
+      "plant": "cauliflower",
+      "patterns": [
+        "yellow patches on upper leaf surface",
+        "white downy growth on underside of leaves",
+        "leaf curling and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in cauliflower is caused by Peronospora brassicae. Symptoms include yellow patches on upper leaf surface, white downy growth on underside of leaves, leaf curling and dieback. Control by applying fungicides such as mancozeb or metalaxyl, improving air circulation, and avoiding overhead irrigation."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_cercospora_leaf_spot",
+      "plant": "cauliflower",
+      "patterns": [
+        "small circular spots with gray centers",
+        "brown to black margins",
+        "leaf yellowing and dropping"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in cauliflower is caused by Cercospora brassicae. Symptoms include small circular spots with gray centers and brown to black margins causing leaf yellowing and dropping. Control by removing infected leaves and applying fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_clubroot",
+      "plant": "cauliflower",
+      "patterns": [
+        "swollen, distorted roots",
+        "wilting plants",
+        "stunted growth",
+        "yellowing leaves"
+      ],
+      "responses": [
+        {
+          "message": "Clubroot in cauliflower is caused by Plasmodiophora brassicae. Symptoms include swollen, distorted roots, wilting plants, stunted growth, and yellowing leaves. Control by crop rotation, liming soil to increase pH, and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_powdery_mildew",
+      "plant": "cauliflower",
+      "patterns": [
+        "white powdery growth on leaves",
+        "leaf curling",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in cauliflower is caused by Erysiphe cruciferarum. Symptoms include white powdery growth on leaves, leaf curling, and premature leaf drop. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_blight",
+      "plant": "cauliflower",
+      "patterns": [
+        "brown to black lesions on leaves",
+        "leaf blight",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Blight in cauliflower is caused by Alternaria brassicae. Symptoms include brown to black lesions on leaves, leaf blight, and defoliation. Manage blight by fungicide applications and field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_aphids",
+      "plant": "cauliflower",
+      "patterns": [
+        "clusters of small green or gray insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest cauliflower causing leaf curling, sticky honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, or systemic insecticides and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "cauliflower_cabbage_worm",
+      "plant": "cauliflower",
+      "patterns": [
+        "holes in leaves",
+        "chewed foliage",
+        "presence of green caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Cabbage worms (larvae of Pieris brassicae) feed on cauliflower leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "okra_powdery_mildew",
+      "plant": "okra",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf curling",
+        "reduced growth"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in okra is caused by Erysiphe cichoracearum. Symptoms include white powdery coating on leaves, leaf curling, and reduced growth. Control by applying sulfur-based fungicides and ensuring good air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "okra_fusarium_wilt",
+      "plant": "okra",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in okra is caused by Fusarium oxysporum f.sp. vasinfectum. Symptoms include wilting, yellowing leaves, vascular discoloration, and stunted growth. Control by using disease-free seeds, soil solarization, crop rotation, and fungicide application."
+        }
+      ]
+    },
+    {
+      "tag": "okra_root_knot_nematodes",
+      "plant": "okra",
+      "patterns": [
+        "stunted plants",
+        "galls on roots",
+        "leaf yellowing",
+        "poor yield"
+      ],
+      "responses": [
+        {
+          "message": "Root-knot nematodes in okra cause root galls, stunted plants, yellowing leaves, and poor yield. Manage by crop rotation with non-host plants, soil fumigation, and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "okra_bacterial_leaf_spot",
+      "plant": "okra",
+      "patterns": [
+        "small brown to black spots on leaves",
+        "yellow halos",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial leaf spot in okra is caused by Xanthomonas campestris pv. malvacearum. Symptoms include small brown to black spots on leaves with yellow halos leading to leaf drop. Control with copper-based bactericides and proper sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "okra_powdery_scurf",
+      "plant": "okra",
+      "patterns": [
+        "brownish scurf on pods",
+        "rough pod surface",
+        "uneven pod development"
+      ],
+      "responses": [
+        {
+          "message": "Powdery scurf in okra causes brownish scurf on pods, rough surfaces, and uneven pod development. Control by applying fungicides and practicing crop rotation."
+        }
+      ]
+    },
+    {
+      "tag": "okra_aphids",
+      "plant": "okra",
+      "patterns": [
+        "clusters of small green insects on stems and leaves",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids suck sap causing leaf curling, honeydew secretion, and sooty mold development on okra. Control aphids by using insecticidal soaps, neem oil, systemic insecticides, and encouraging natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "okra_whiteflies",
+      "plant": "okra",
+      "patterns": [
+        "small white flying insects",
+        "yellowing leaves",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Whiteflies on okra cause yellowing leaves, honeydew secretion leading to sooty mold, and may vector viral diseases. Control by using yellow sticky traps, insecticidal soaps, and encouraging natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "okra_caterpillars",
+      "plant": "okra",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on okra leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "peas_powdery_mildew",
+      "plant": "peas",
+      "patterns": [
+        "white powdery coating on leaves and stems",
+        "leaf curling",
+        "reduced plant vigor"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in peas is caused by Erysiphe pisi. Symptoms include white powdery coating on leaves and stems, leaf curling, and reduced plant vigor. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "peas_fusarium_wilt",
+      "plant": "peas",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "brown discoloration in vascular tissues",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in peas is caused by Fusarium oxysporum f.sp. pisi. Symptoms include wilting, yellowing leaves, brown discoloration in vascular tissues, and stunted growth. Control by using disease-free seed, soil solarization, crop rotation, and fungicide application."
+        }
+      ]
+    },
+    {
+      "tag": "peas_ascochyta_blight",
+      "plant": "peas",
+      "patterns": [
+        "brown to black lesions on leaves and stems",
+        "leaf drop",
+        "stem cankers"
+      ],
+      "responses": [
+        {
+          "message": "Ascochyta blight in peas is caused by Didymella pinodes and related fungi. Symptoms include brown to black lesions on leaves and stems, leaf drop, and stem cankers. Control by crop rotation, fungicide applications, and removal of infected plant debris."
+        }
+      ]
+    },
+    {
+      "tag": "peas_root_rot",
+      "plant": "peas",
+      "patterns": [
+        "yellowing and wilting plants",
+        "root decay",
+        "poor growth"
+      ],
+      "responses": [
+        {
+          "message": "Root rot in peas is caused by soil-borne pathogens such as Rhizoctonia solani and Pythium spp. Symptoms include yellowing and wilting plants, root decay, and poor growth. Control by soil drainage improvement, crop rotation, and fungicide soil treatments."
+        }
+      ]
+    },
+    {
+      "tag": "peas_bacterial_blight",
+      "plant": "peas",
+      "patterns": [
+        "water-soaked spots on leaves",
+        "leaf yellowing",
+        "bacterial ooze"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial blight in peas is caused by Pseudomonas syringae pv. pisi. Symptoms include water-soaked spots on leaves, leaf yellowing, and bacterial ooze. Control by using disease-free seed, copper-based bactericides, and good field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "peas_aphids",
+      "plant": "peas",
+      "patterns": [
+        "clusters of small green or black insects",
+        "leaf curling and distortion",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest peas causing leaf curling, distortion, honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "peas_pea_weevil",
+      "plant": "peas",
+      "patterns": [
+        "notched leaf edges",
+        "damaged pods",
+        "reduced yield"
+      ],
+      "responses": [
+        {
+          "message": "Pea weevil larvae damage pea leaves and pods resulting in notched edges and reduced yield. Control by using insecticides and practicing crop rotation."
+        }
+      ]
+    },
+    {
+      "tag": "peas_powdery_scurf",
+      "plant": "peas",
+      "patterns": [
+        "brown scurf on pods",
+        "rough pod surface"
+      ],
+      "responses": [
+        {
+          "message": "Powdery scurf on peas causes brown scurf patches and rough pod surface. Control by applying fungicides and crop rotation."
+        }
+      ]
+    },
+    {
+      "tag": "beans_powdery_mildew",
+      "plant": "beans",
+      "patterns": [
+        "white powdery coating on leaves and stems",
+        "leaf curling",
+        "reduced growth"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in beans is caused by Erysiphe polygoni. Symptoms include white powdery coating on leaves and stems, leaf curling, and reduced growth. Control by applying sulfur-based fungicides and ensuring good air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "beans_anthracnose",
+      "plant": "beans",
+      "patterns": [
+        "dark sunken lesions on pods",
+        "leaf spots",
+        "pod rot"
+      ],
+      "responses": [
+        {
+          "message": "Anthracnose in beans is caused by Colletotrichum lindemuthianum. Symptoms include dark sunken lesions on pods, leaf spots, and pod rot. Control by removing infected plant debris, applying recommended fungicides, and crop rotation."
+        }
+      ]
+    },
+    {
+      "tag": "beans_bacterial_blight",
+      "plant": "beans",
+      "patterns": [
+        "water-soaked spots on leaves",
+        "brown lesions on stems",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial blight in beans is caused by Pseudomonas syringae pv. phaseolicola. Symptoms include water-soaked spots on leaves, brown lesions on stems, and leaf drop. Control by using disease-free seed, copper-based bactericides, and practicing field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "beans_root_rot",
+      "plant": "beans",
+      "patterns": [
+        "yellowing and wilting plants",
+        "root decay",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Root rot in beans is caused by soil-borne fungi including Rhizoctonia solani and Pythium spp. Symptoms include yellowing, wilting, root decay, and stunted growth. Control by improving soil drainage, crop rotation, and fungicide treatments."
+        }
+      ]
+    },
+    {
+      "tag": "beans_fusarium_wilt",
+      "plant": "beans",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular browning",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in beans is caused by Fusarium oxysporum f.sp. phaseoli. Symptoms are wilting, yellowing leaves, vascular browning, and stunted growth. Control by using resistant varieties, crop rotation, and soil treatments."
+        }
+      ]
+    },
+    {
+      "tag": "beans_aphids",
+      "plant": "beans",
+      "patterns": [
+        "clusters of small green or black insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest beans causing leaf curling, honeydew secretion, and sooty mold growth. Control aphids using insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "beans_thrips",
+      "plant": "beans",
+      "patterns": [
+        "silvery streaks on leaves",
+        "deformed flowers",
+        "black specks on leaves"
+      ],
+      "responses": [
+        {
+          "message": "Thrips cause silvery streaks on bean leaves, deformed flowers, and black speckling. Control thrips using insecticidal soaps or recommended insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "beans_caterpillars",
+      "plant": "beans",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on bean leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_bacterial_spot",
+      "plant": "chilli",
+      "patterns": [
+        "water-soaked spots on leaves",
+        "brown lesions on stems",
+        "fruit spots",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial spot in chilli is caused by Xanthomonas campestris pv. vesicatoria. Symptoms include water-soaked spots on leaves, brown lesions on stems, fruit spots, and leaf drop. Control by using disease-free seeds, copper-based bactericides, and practicing good sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_powdery_mildew",
+      "plant": "chilli",
+      "patterns": [
+        "white powdery coating on leaves and stems",
+        "leaf curling",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in chilli is caused by Leveillula taurica. Symptoms include white powdery coating on leaves and stems, leaf curling, and premature leaf drop. Control by applying sulfur-based fungicides and ensuring good air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_fusarium_wilt",
+      "plant": "chilli",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in chilli is caused by Fusarium oxysporum f.sp. capsici. Symptoms include wilting, yellowing leaves, vascular discoloration, and stunted growth. Control by planting resistant varieties, crop rotation, and soil treatment."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_anthracnose",
+      "plant": "chilli",
+      "patterns": [
+        "dark sunken lesions on fruits",
+        "leaf spots",
+        "fruit rot"
+      ],
+      "responses": [
+        {
+          "message": "Anthracnose in chilli is caused by Colletotrichum capsici. Symptoms include dark sunken lesions on fruits, leaf spots, and fruit rot. Control by removing infected plant parts, applying fungicides, and maintaining field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_botrytis_blight",
+      "plant": "chilli",
+      "patterns": [
+        "gray fuzzy mold on flowers and leaves",
+        "flower blight",
+        "fruit rot"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis blight in chilli is caused by Botrytis cinerea. Symptoms include gray fuzzy mold on flowers and leaves, flower blight, and fruit rot. Control by removing infected tissue and applying appropriate fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_aphids",
+      "plant": "chilli",
+      "patterns": [
+        "clusters of small green insects",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest chilli causing sap sucking, leaf curling, honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, or systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_thrips",
+      "plant": "chilli",
+      "patterns": [
+        "silvery streaks on leaves",
+        "deformed flowers",
+        "black specks on leaves"
+      ],
+      "responses": [
+        {
+          "message": "Thrips cause silvery streaks on chilli leaves, deformed flowers, and black speckling. Control with insecticidal soaps or labeled insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "chilli_caterpillars",
+      "plant": "chilli",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on chilli leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "carrot_powdery_mildew",
+      "plant": "carrot",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf curling",
+        "reduced plant vigor"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in carrot is caused by Erysiphe heraclei. Symptoms include white powdery coating on leaves, leaf curling, and reduced plant vigor. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "carrot_alternaria_leaf_spot",
+      "plant": "carrot",
+      "patterns": [
+        "brown to black spots with concentric rings on leaves",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Alternaria leaf spot in carrot is caused by Alternaria dauci. Symptoms include brown to black spots with concentric rings on leaves, leaf yellowing, and leaf drop. Control by using fungicides such as mancozeb and removal of infected plant debris."
+        }
+      ]
+    },
+    {
+      "tag": "carrot_bacterial_blight",
+      "plant": "carrot",
+      "patterns": [
+        "water-soaked lesions on leaves",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial blight in carrot is caused by Xanthomonas campestris pv. carotae. Symptoms include water-soaked lesions on leaves, leaf yellowing, and leaf drop. Control by using disease-free seed, copper-based bactericides, and practicing good sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "carrot_root_knot_nematodes",
+      "plant": "carrot",
+      "patterns": [
+        "galls on roots",
+        "stunted growth",
+        "yellowing leaves"
+      ],
+      "responses": [
+        {
+          "message": "Root-knot nematodes cause galls on carrot roots leading to stunted growth and yellowing leaves. Manage by crop rotation, soil fumigation, and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "carrot_cavity_spot",
+      "plant": "carrot",
+      "patterns": [
+        "sunken lesions on roots",
+        "discolored spots",
+        "poor root quality"
+      ],
+      "responses": [
+        {
+          "message": "Cavity spot in carrot is caused by Pythium spp. Symptoms include sunken lesions and discolored spots on roots leading to poor root quality. Control by improving soil drainage, crop rotation, and fungicide soil treatments."
+        }
+      ]
+    },
+    {
+      "tag": "carrot_aphids",
+      "plant": "carrot",
+      "patterns": [
+        "clusters of small green or black insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest carrot plants causing leaf curling, honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "carrot_caterpillars",
+      "plant": "carrot",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on carrot leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_powdery_mildew",
+      "plant": "cucumber",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf curling",
+        "yellowing leaves",
+        "reduced growth"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in cucumber is caused by Podosphaera xanthii and Erysiphe cichoracearum. Symptoms include white powdery coating on leaves, leaf curling, yellowing, and reduced growth. Control by applying sulfur or potassium bicarbonate fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_downy_mildew",
+      "plant": "cucumber",
+      "patterns": [
+        "yellow angular spots on leaves",
+        "gray-purple fuzzy growth on underside of leaves",
+        "leaf curling and browning"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in cucumber is caused by Pseudoperonospora cubensis. Symptoms include yellow angular spots on leaves, gray-purple fuzzy growth on undersides, leaf curling, and browning. Control by using fungicides like metalaxyl and mancozeb, ensuring good airflow, and avoiding overhead watering."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_bacterial_wilt",
+      "plant": "cucumber",
+      "patterns": [
+        "wilting vines",
+        "yellowing leaves",
+        "bacterial ooze",
+        "plant collapse"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial wilt in cucumber is caused by Erwinia tracheiphila. Symptoms include wilting vines, yellowing leaves, bacterial ooze in stems, and plant collapse. Control by managing cucumber beetles which spread the disease and removing infected plants."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_alternaria_leaf_spot",
+      "plant": "cucumber",
+      "patterns": [
+        "brown to black circular spots on leaves",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Alternaria leaf spot in cucumber is caused by Alternaria cucumerina. Symptoms include brown to black circular spots on leaves, yellowing, and leaf drop. Control by fungicide applications and removal of infected plant debris."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_gummy_stem_blight",
+      "plant": "cucumber",
+      "patterns": [
+        "dark lesions on stems",
+        "gum exudation",
+        "wilting vines"
+      ],
+      "responses": [
+        {
+          "message": "Gummy stem blight in cucumber is caused by Didymella bryoniae. Symptoms include dark lesions on stems, gum exudation, and wilting vines. Manage by using disease-free seed, crop rotation, fungicide sprays, and removal of infected debris."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_cucumber_beetles",
+      "plant": "cucumber",
+      "patterns": [
+        "holes in leaves",
+        "chewed flowers and fruits",
+        "yellowing leaves"
+      ],
+      "responses": [
+        {
+          "message": "Cucumber beetles feed on leaves, flowers, and fruits causing holes and yellowing. They also vector bacterial wilt. Control by handpicking, using insecticides, and applying row covers."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_aphids",
+      "plant": "cucumber",
+      "patterns": [
+        "clusters of small green or black insects",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest cucumber causing leaf curling, honeydew secretion, and sooty mold growth. Control aphids using insecticidal soaps, neem oil, or systemic insecticides and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "cucumber_caterpillars",
+      "plant": "cucumber",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on cucumber leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "spinach_downy_mildew",
+      "plant": "spinach",
+      "patterns": [
+        "yellow spots on upper leaf surface",
+        "white to grayish downy growth on leaf undersides",
+        "leaf curling and distortion"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in spinach is caused by Peronospora farinosa f.sp. spinaciae. Symptoms include yellow spots on upper leaf surface, white to grayish downy growth on leaf undersides, and leaf curling and distortion. Control by using resistant varieties, applying fungicides like metalaxyl or mefenoxam, and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "spinach_fusarium_wilt",
+      "plant": "spinach",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in spinach is caused by Fusarium oxysporum f.sp. spinaciae. Symptoms include wilting, yellowing leaves, vascular discoloration, and stunted growth. Control by using disease-free seed, crop rotation, and soil fungicide treatments."
+        }
+      ]
+    },
+    {
+      "tag": "spinach_bacterial_leaf_spot",
+      "plant": "spinach",
+      "patterns": [
+        "small water-soaked spots on leaves",
+        "brown lesions",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial leaf spot in spinach is caused by Pseudomonas spp. Symptoms include small water-soaked spots on leaves, brown lesions, leaf yellowing, and leaf drop. Control by using disease-free seed, copper-based bactericides, and proper sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "leafy_greens_downy_mildew",
+      "plant": "leafy greens",
+      "patterns": [
+        "yellow patches on upper leaf surface",
+        "white downy growth on leaf undersides",
+        "leaf curling"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in leafy greens is caused by various Peronospora species. Symptoms include yellow patches on upper leaf surface, white downy growth on leaf undersides, and leaf curling. Control by applying fungicides, improving air circulation, and avoiding overhead watering."
+        }
+      ]
+    },
+    {
+      "tag": "leafy_greens_powdery_mildew",
+      "plant": "leafy greens",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf curling",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in leafy greens is caused by Erysiphe and related fungal species. Symptoms include white powdery coating on leaves, leaf curling, and premature leaf drop. Control using sulfur-based fungicides and promoting good air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "leafy_greens_cercospora_leaf_spot",
+      "plant": "leafy greens",
+      "patterns": [
+        "small circular spots with gray centers",
+        "dark margins on leaves",
+        "leaf yellowing and drop"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in leafy greens is caused by Cercospora spp. Symptoms include small circular spots with gray centers, dark margins on leaves, leaf yellowing, and drop. Control by fungicide application and removal of infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "leafy_greens_aphids",
+      "plant": "leafy greens",
+      "patterns": [
+        "clusters of small green or black insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest leafy greens causing leaf curling, sticky honeydew secretion, and sooty mold growth. Control aphids using insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "leafy_greens_caterpillars",
+      "plant": "leafy greens",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on leafy greens causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "bottle_gourd_powdery_mildew",
+      "plant": "bottle gourd",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf curling",
+        "reduced growth"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in bottle gourd is caused by Erysiphe cichoracearum. Symptoms include white powdery coating on leaves, leaf curling, and reduced growth. Control by applying sulfur-based fungicides and ensuring good air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "bitter_gourd_downy_mildew",
+      "plant": "bitter gourd",
+      "patterns": [
+        "yellow angular spots on leaves",
+        "gray-purple fuzzy growth on leaf undersides",
+        "leaf curling and browning"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in bitter gourd is caused by Pseudoperonospora cubensis. Symptoms include yellow angular spots on leaves, gray-purple fuzzy growth on leaf undersides, leaf curling, and browning. Control with fungicides like metalaxyl and mancozeb, improve air circulation, and avoid overhead watering."
+        }
+      ]
+    },
+    {
+      "tag": "ridge_gourd_angular_leaf_spot",
+      "plant": "ridge gourd",
+      "patterns": [
+        "angular brown spots on leaves",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Angular leaf spot in ridge gourd is caused by Pseudomonas syringae pv. lachrymans. Symptoms include angular brown spots on leaves, leaf yellowing, and leaf drop. Control with copper-based bactericides and removal of infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "pumpkin_gummy_stem_blight",
+      "plant": "pumpkin",
+      "patterns": [
+        "dark lesions on stems",
+        "gum exudation",
+        "wilting vines"
+      ],
+      "responses": [
+        {
+          "message": "Gummy stem blight in pumpkin is caused by Didymella bryoniae. Symptoms include dark lesions on stems, gum exudation, and wilting vines. Manage by using disease-free seed, crop rotation, fungicide sprays, and removal of infected debris."
+        }
+      ]
+    },
+    {
+      "tag": "general_sap_sucking_pests",
+      "plant": "bottle gourd, bitter gourd, ridge gourd, pumpkin",
+      "patterns": [
+        "clusters of small green or black insects",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Sap-sucking pests like aphids, whiteflies, and mealybugs infest bottle gourd, bitter gourd, ridge gourd, and pumpkin causing leaf curling, sticky honeydew secretion, and sooty mold growth. Control these pests using insecticidal soaps, neem oil, systemic insecticides, and promoting natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "general_caterpillars",
+      "plant": "bottle gourd, bitter gourd, ridge gourd, pumpkin",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on leaves of bottle gourd, bitter gourd, ridge gourd, and pumpkin causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "bottle_gourd_downy_mildew",
+      "plant": "bottle gourd",
+      "patterns": [
+        "yellow spots on upper leaf surface",
+        "white downy growth on leaf undersides",
+        "leaf curling and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in bottle gourd is caused by Pseudoperonospora cubensis. Symptoms include yellow spots on upper leaf surface, white downy growth on leaf undersides, and leaf curling and dieback. Control by applying fungicides such as metalaxyl, improving air circulation, and avoiding overhead irrigation."
+        }
+      ]
+    },
+    {
+      "tag": "bitter_gourd_powdery_mildew",
+      "plant": "bitter gourd",
+      "patterns": [
+        "white powdery spots on leaves",
+        "leaf distortion",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in bitter gourd is caused by Erysiphe cichoracearum. Symptoms include white powdery spots on leaves, leaf distortion, and premature leaf drop. Control by sulfur-based fungicides and ensuring good ventilation."
+        }
+      ]
+    },
+    {
+      "tag": "ridge_gourd_viral_mosaic",
+      "plant": "ridge gourd",
+      "patterns": [
+        "mottled yellow and green leaves",
+        "stunted plants",
+        "distorted fruits"
+      ],
+      "responses": [
+        {
+          "message": "Viral mosaic disease in ridge gourd causes mottled yellow and green leaves, stunted growth, and distorted fruits. No chemical control exists; manage by controlling insect vectors like whiteflies and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "pumpkin_powdery_mildew",
+      "plant": "pumpkin",
+      "patterns": [
+        "white powdery coating on leaves and stems",
+        "leaf curling",
+        "reduced growth"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in pumpkin is caused by Erysiphe cichoracearum and Podosphaera xanthii. Symptoms include white powdery coating on leaves and stems, leaf curling, and reduced growth. Control by applying sulfur fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "general_fusarium_wilt",
+      "plant": "bottle gourd, bitter gourd, ridge gourd, pumpkin",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular browning",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt affects bottle gourd, bitter gourd, ridge gourd, and pumpkin caused by Fusarium oxysporum species. Symptoms include wilting, yellowing leaves, vascular browning, and stunted growth. Control through planting disease-free seed, crop rotation, and fungicide application."
+        }
+      ]
+    },
+    {
+      "tag": "general_root_knot_nematodes",
+      "plant": "bottle gourd, bitter gourd, ridge gourd, pumpkin",
+      "patterns": [
+        "galls on roots",
+        "stunted plants",
+        "yellowing leaves",
+        "poor yield"
+      ],
+      "responses": [
+        {
+          "message": "Root-knot nematodes cause galls on roots of bottle gourd, bitter gourd, ridge gourd, and pumpkin leading to stunted plants, yellowing leaves, and poor yield. Manage by crop rotation, soil fumigation, and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "radish_downy_mildew",
+      "plant": "radish",
+      "patterns": [
+        "yellow patches on upper leaf surface",
+        "white downy growth on leaf undersides",
+        "leaf curling and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in radish is caused by Peronospora manshurica. Symptoms include yellow patches on upper leaf surface, white downy growth on leaf undersides, and leaf curling and dieback. Control by applying fungicides such as mancozeb and metalaxyl, improving air circulation, and avoiding overhead irrigation."
+        }
+      ]
+    },
+    {
+      "tag": "radish_black_rot",
+      "plant": "radish",
+      "patterns": [
+        "yellow V-shaped lesions on leaf edges",
+        "blackening of veins",
+        "leaf yellowing and wilting"
+      ],
+      "responses": [
+        {
+          "message": "Black rot in radish is caused by Xanthomonas campestris pv. campestris. Symptoms include yellow V-shaped lesions on leaf edges, blackening of veins, leaf yellowing, and wilting. Control by using disease-free seed, crop rotation, and copper-based bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "radish_blight",
+      "plant": "radish",
+      "patterns": [
+        "brown to black lesions on leaves",
+        "leaf blight",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Blight in radish is caused by Alternaria brassicae. Symptoms include brown to black lesions on leaves, leaf blight, and defoliation. Control by fungicide applications and field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "radish_cercospora_leaf_spot",
+      "plant": "radish",
+      "patterns": [
+        "small circular spots with gray centers",
+        "brown to black margins",
+        "leaf yellowing and dropping"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in radish is caused by Cercospora spp. Symptoms include small circular spots with gray centers, brown to black margins, leaf yellowing, and dropping. Control by applying fungicides and removing infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "radish_root_knot_nematodes",
+      "plant": "radish",
+      "patterns": [
+        "galls on roots",
+        "stunted plants",
+        "yellowing leaves",
+        "poor root development"
+      ],
+      "responses": [
+        {
+          "message": "Root-knot nematodes cause galls on radish roots leading to stunted plants, yellowing leaves, and poor root development. Manage by crop rotation, soil fumigation, and resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "radish_aphids",
+      "plant": "radish",
+      "patterns": [
+        "clusters of small green or black insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest radish causing leaf curling, honeydew secretion, and sooty mold growth. Control with insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "radish_cabbage_worm",
+      "plant": "radish",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of green caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Cabbage worms feed on radish leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "turnip_downy_mildew",
+      "plant": "turnip",
+      "patterns": [
+        "yellow patches on upper leaf surface",
+        "white downy growth on leaf undersides",
+        "leaf curling and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in turnip is caused by Peronospora brassicae. Symptoms include yellow patches on upper leaf surface, white downy growth on leaf undersides, and leaf curling and dieback. Control by applying fungicides such as mancozeb or metalaxyl, improving air circulation, and avoiding overhead watering."
+        }
+      ]
+    },
+    {
+      "tag": "turnip_black_rot",
+      "plant": "turnip",
+      "patterns": [
+        "yellow V-shaped lesions on leaf edges",
+        "blackening of veins",
+        "leaf yellowing and wilting"
+      ],
+      "responses": [
+        {
+          "message": "Black rot in turnip is caused by Xanthomonas campestris pv. campestris. Symptoms include yellow V-shaped lesions on leaf edges, blackening of veins, leaf yellowing, and wilting. Control by using disease-free seed, crop rotation, and copper-based bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "turnip_blight",
+      "plant": "turnip",
+      "patterns": [
+        "brown to black lesions on leaves",
+        "leaf blight",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Blight in turnip is caused by Alternaria brassicae. Symptoms include brown to black lesions on leaves, leaf blight, and defoliation. Control by fungicide applications and field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "turnip_cercospora_leaf_spot",
+      "plant": "turnip",
+      "patterns": [
+        "small circular spots with gray centers",
+        "brown to black margins",
+        "leaf yellowing and dropping"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in turnip is caused by Cercospora spp. Symptoms include small circular spots with gray centers, brown to black margins, leaf yellowing, and dropping. Control by applying fungicides and removing infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "turnip_root_knot_nematodes",
+      "plant": "turnip",
+      "patterns": [
+        "galls on roots",
+        "stunted plants",
+        "yellowing leaves",
+        "poor root development"
+      ],
+      "responses": [
+        {
+          "message": "Root-knot nematodes cause galls on turnip roots leading to stunted plants, yellowing leaves, and poor root development. Manage by crop rotation, soil fumigation, and resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "turnip_aphids",
+      "plant": "turnip",
+      "patterns": [
+        "clusters of small green or black insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest turnip causing leaf curling, honeydew secretion, and sooty mold growth. Control with insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "turnip_cabbage_worm",
+      "plant": "turnip",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of green caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Cabbage worms feed on turnip leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_bacterial_spot",
+      "plant": "capsicum",
+      "patterns": [
+        "water-soaked spots on leaves",
+        "brown lesions on stems",
+        "fruit spots",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial spot in capsicum is caused by Xanthomonas campestris pv. vesicatoria. Symptoms include water-soaked spots on leaves, brown lesions on stems, fruit spots, and leaf drop. Control by using disease-free seeds, copper-based bactericides, and practicing good sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_powdery_mildew",
+      "plant": "capsicum",
+      "patterns": [
+        "white powdery coating on leaves and stems",
+        "leaf curling",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in capsicum is caused by Leveillula taurica. Symptoms include white powdery coating on leaves and stems, leaf curling, and premature leaf drop. Control by applying sulfur-based fungicides and ensuring good air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_fusarium_wilt",
+      "plant": "capsicum",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in capsicum is caused by Fusarium oxysporum f.sp. capsici. Symptoms include wilting, yellowing leaves, vascular discoloration, and stunted growth. Control by planting resistant varieties, crop rotation, and soil treatment."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_anthracnose",
+      "plant": "capsicum",
+      "patterns": [
+        "dark sunken lesions on fruits",
+        "leaf spots",
+        "fruit rot"
+      ],
+      "responses": [
+        {
+          "message": "Anthracnose in capsicum is caused by Colletotrichum capsici. Symptoms include dark sunken lesions on fruits, leaf spots, and fruit rot. Control by removing infected plant parts, applying fungicides, and maintaining field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_botrytis_blight",
+      "plant": "capsicum",
+      "patterns": [
+        "gray fuzzy mold on flowers and leaves",
+        "flower blight",
+        "fruit rot"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis blight in capsicum is caused by Botrytis cinerea. Symptoms include gray fuzzy mold on flowers and leaves, flower blight, and fruit rot. Control by removing infected tissue and applying appropriate fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_aphids",
+      "plant": "capsicum",
+      "patterns": [
+        "clusters of small green insects",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest capsicum causing sap sucking, leaf curling, honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, or systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_thrips",
+      "plant": "capsicum",
+      "patterns": [
+        "silvery streaks on leaves",
+        "deformed flowers",
+        "black specks on leaves"
+      ],
+      "responses": [
+        {
+          "message": "Thrips cause silvery streaks on capsicum leaves, deformed flowers, and black speckling. Control with insecticidal soaps or labeled insecticides."
+        }
+      ]
+    },
+    {
+      "tag": "capsicum_caterpillars",
+      "plant": "capsicum",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on capsicum leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "drumstick_powdery_mildew",
+      "plant": "drumstick",
+      "patterns": [
+        "white powdery coating on leaves",
+        "leaf curling",
+        "reduced growth"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in drumstick is caused by Erysiphe polygoni. Symptoms include white powdery coating on leaves, leaf curling, and reduced growth. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "drumstick_fusarium_wilt",
+      "plant": "drumstick",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in drumstick is caused by Fusarium oxysporum f.sp. mori. Symptoms include wilting, yellowing leaves, vascular discoloration, and stunted growth. Control by using disease-free seedlings, crop rotation, and fungicide application."
+        }
+      ]
+    },
+    {
+      "tag": "drumstick_leaf_spot",
+      "plant": "drumstick",
+      "patterns": [
+        "brown to black spots on leaves",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Leaf spot in drumstick is caused by Cercospora moricola. Symptoms include brown to black spots on leaves, yellowing, and leaf drop. Control by fungicide application and removal of infected leaves."
+        }
+      ]
+    },
+    {
+      "tag": "drumstick_root_knot_nematodes",
+      "plant": "drumstick",
+      "patterns": [
+        "galls on roots",
+        "yellowing leaves",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Root-knot nematodes infest drumstick causing root galls, yellowing leaves, and stunted growth. Manage by crop rotation, soil solarization, and resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "drumstick_aphids",
+      "plant": "drumstick",
+      "patterns": [
+        "clusters of small green insects",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids feed on drumstick sap causing leaf curling, honeydew secretion, and sooty mold growth. Control aphids using insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "drumstick_caterpillars",
+      "plant": "drumstick",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on drumstick leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "mushroom_green_mold",
+      "plant": "mushroom",
+      "patterns": [
+        "green powdery mold on casing soil",
+        "reduced mushroom yield",
+        "contaminated beds"
+      ],
+      "responses": [
+        {
+          "message": "Green mold in mushrooms is caused by Trichoderma species. Symptoms include green powdery mold on casing soil surface, reduced mushroom yield, and contamination of beds. Control by maintaining proper hygiene, using sterilized casing material, and applying fungicides in severe cases."
+        }
+      ]
+    },
+    {
+      "tag": "mushroom_wet_bubble",
+      "plant": "mushroom",
+      "patterns": [
+        "wet, bubble-like lesions on mushroom caps",
+        "distorted mushrooms",
+        "poor fruiting"
+      ],
+      "responses": [
+        {
+          "message": "Wet bubble disease in mushrooms is caused by Mycogone perniciosa. Symptoms include wet, bubble-like lesions on caps, distorted mushrooms, and poor fruiting bodies. Control by removing infected substrates and maintaining sterile growing conditions."
+        }
+      ]
+    },
+    {
+      "tag": "mushroom_dry_bubble",
+      "plant": "mushroom",
+      "patterns": [
+        "dry, deformed mushroom caps",
+        "discolored fruit bodies",
+        "small malformed mushrooms"
+      ],
+      "responses": [
+        {
+          "message": "Dry bubble disease in mushrooms is caused by Verticillium fungicola. Symptoms include dry, deformed caps, discoloration, and malformed fruit bodies. Control by sanitation, removing infected mushrooms, and proper compost pasteurization."
+        }
+      ]
+    },
+    {
+      "tag": "mushroom_bacterial_blotch",
+      "plant": "mushroom",
+      "patterns": [
+        "yellow to brown water-soaked lesions on caps",
+        "slimy spots",
+        "unpleasant odor"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial blotch in mushrooms is caused by Pseudomonas tolaasii. Symptoms include yellow to brown water-soaked lesions on caps, slimy spots, and unpleasant odor. Control by reducing casing moisture, improving ventilation, and sanitizing equipment."
+        }
+      ]
+    },
+    {
+      "tag": "mushroom_verticillium_blight",
+      "plant": "mushroom",
+      "patterns": [
+        "whitish mycelial growth on mushroom caps",
+        "brown spots",
+        "fruit body collapse"
+      ],
+      "responses": [
+        {
+          "message": "Verticillium blight in mushrooms is caused by Lecanicillium fungicola. Symptoms include whitish mycelial growth on caps, brown spots, and fruit body collapse. Control by sanitation, removing infected mushrooms, and fungicide application."
+        }
+      ]
+    },
+    {
+      "tag": "mushroom_trichoderma",
+      "plant": "mushroom",
+      "patterns": [
+        "white to green aerial mycelium",
+        "rapid spread on substrate",
+        "suppressed mushroom growth"
+      ],
+      "responses": [
+        {
+          "message": "Trichoderma species cause green mold contamination in mushrooms, characterized by white to green aerial mycelium, rapid spread on substrate, and suppressed mushroom growth. Control by proper sterilization of compost and casing material, and maintaining hygiene."
+        }
+      ]
+    },
+    {
+      "tag": "sweet_potato_fusarium_wilt",
+      "plant": "sweet potato",
+      "patterns": [
+        "wilting vines",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in sweet potato is caused by Fusarium oxysporum f.sp. batatas. Symptoms include wilting vines, yellowing leaves, vascular discoloration, and stunted growth. Control by using disease-free slips, crop rotation, and soil fungicide treatment."
+        }
+      ]
+    },
+    {
+      "tag": "sweet_potato_root_rot",
+      "plant": "sweet potato",
+      "patterns": [
+        "soft, rotten roots",
+        "brown lesions on roots",
+        "wilting plants"
+      ],
+      "responses": [
+        {
+          "message": "Root rot in sweet potato is caused by soil pathogens including Rhizopus and Pythium species. Symptoms include soft, rotten roots, brown lesions on roots, and wilting plants. Control by ensuring good soil drainage, crop rotation, and fungicidal soil treatments."
+        }
+      ]
+    },
+    {
+      "tag": "sweet_potato_scab",
+      "plant": "sweet potato",
+      "patterns": [
+        "rough corky lesions on roots",
+        "reduced root quality"
+      ],
+      "responses": [
+        {
+          "message": "Scab disease in sweet potato is caused by Streptomyces scabies. Symptoms include rough, corky lesions on roots leading to reduced quality. Control by maintaining soil moisture during root formation and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "sweet_potato_wireworm",
+      "plant": "sweet potato",
+      "patterns": [
+        "holes and tunnels in roots",
+        "poor root development",
+        "reduced yield"
+      ],
+      "responses": [
+        {
+          "message": "Wireworms feed on sweet potato roots causing holes and tunnels, leading to poor development and reduced yield. Manage by crop rotation, soil treatment, and insecticide application if necessary."
+        }
+      ]
+    },
+    {
+      "tag": "sweet_potato_aphids",
+      "plant": "sweet potato",
+      "patterns": [
+        "clusters of small green insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest sweet potato causing leaf curling, honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "sweet_potato_whiteflies",
+      "plant": "sweet potato",
+      "patterns": [
+        "small white flying insects",
+        "yellowing leaves",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Whiteflies infest sweet potato causing yellowing leaves, sticky honeydew leading to sooty mold, and may vector viral diseases. Control by using yellow sticky traps, insecticidal soaps, and promoting natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "sweet_potato_caterpillars",
+      "plant": "sweet potato",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on sweet potato leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_black_rot",
+      "plant": "broccoli",
+      "patterns": [
+        "yellow V-shaped lesions on leaf edges",
+        "blackening of veins",
+        "leaf yellowing and wilting",
+        "soft rot in vascular tissues"
+      ],
+      "responses": [
+        {
+          "message": "Black rot in broccoli is caused by Xanthomonas campestris pv. campestris. Symptoms include yellow V-shaped lesions on leaf edges, blackening of veins, leaf yellowing and wilting, and soft rot in vascular tissues. Control by using disease-free seed, crop rotation, and copper-based bactericides."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_downy_mildew",
+      "plant": "broccoli",
+      "patterns": [
+        "yellow patches on upper leaf surface",
+        "white downy growth on underside of leaves",
+        "leaf curling and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Downy mildew in broccoli is caused by Peronospora brassicae. Symptoms include yellow patches on upper leaf surface, white downy growth on underside of leaves, leaf curling and dieback. Control by applying fungicides such as mancozeb or metalaxyl, improving air circulation, and avoiding overhead irrigation."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_cercospora_leaf_spot",
+      "plant": "broccoli",
+      "patterns": [
+        "small circular spots with gray centers",
+        "brown to black margins",
+        "leaf yellowing and dropping"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in broccoli is caused by Cercospora brassicae. Symptoms include small circular spots with gray centers and brown to black margins causing leaf yellowing and dropping. Control by removing infected leaves and applying fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_clubroot",
+      "plant": "broccoli",
+      "patterns": [
+        "swollen, distorted roots",
+        "wilting plants",
+        "stunted growth",
+        "yellowing leaves"
+      ],
+      "responses": [
+        {
+          "message": "Clubroot in broccoli is caused by Plasmodiophora brassicae. Symptoms include swollen, distorted roots, wilting plants, stunted growth, and yellowing leaves. Control by crop rotation, liming soil to increase pH, and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_powdery_mildew",
+      "plant": "broccoli",
+      "patterns": [
+        "white powdery growth on leaves",
+        "leaf curling",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew in broccoli is caused by Erysiphe cruciferarum. Symptoms include white powdery growth on leaves, leaf curling, and premature leaf drop. Control by applying sulfur-based fungicides and improving air circulation."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_blight",
+      "plant": "broccoli",
+      "patterns": [
+        "brown to black lesions on leaves",
+        "leaf blight",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Blight in broccoli is caused by Alternaria brassicae. Symptoms include brown to black lesions on leaves, leaf blight, and defoliation. Manage blight by fungicide applications and field sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_aphids",
+      "plant": "broccoli",
+      "patterns": [
+        "clusters of small green or gray insects",
+        "leaf curling",
+        "sticky honeydew",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest broccoli causing leaf curling, sticky honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, or systemic insecticides and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "broccoli_cabbage_worm",
+      "plant": "broccoli",
+      "patterns": [
+        "holes in leaves",
+        "chewed foliage",
+        "presence of green caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Cabbage worms (larvae of Pieris brassicae) feed on broccoli leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "celery_bacterial_blight",
+      "plant": "celery",
+      "patterns": [
+        "water-soaked spots on leaves",
+        "brown lesions on stems",
+        "leaf yellowing",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial blight in celery is caused by Pseudomonas syringae pv. apii. Symptoms include water-soaked spots on leaves, brown lesions on stems, leaf yellowing, and leaf drop. Control by using disease-free seed, copper-based bactericides, and maintaining sanitation."
+        }
+      ]
+    },
+    {
+      "tag": "celery_fusarium_wilt",
+      "plant": "celery",
+      "patterns": [
+        "wilting plants",
+        "yellowing leaves",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in celery is caused by Fusarium oxysporum f.sp. apii. Symptoms include wilting, yellowing leaves, vascular discoloration, and stunted growth. Control by using disease-free seed, crop rotation, and soil fungicide treatments."
+        }
+      ]
+    },
+    {
+      "tag": "celery_late_blight",
+      "plant": "celery",
+      "patterns": [
+        "dark brown lesions on leaves",
+        "water-soaked spots on stems",
+        "leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Late blight in celery is caused by Septoria apiicola. Symptoms include dark brown lesions on leaves, water-soaked spots on stems, and leaf drop. Control by applying fungicides, crop rotation, and removing infected debris."
+        }
+      ]
+    },
+    {
+      "tag": "celery_botrytis_blight",
+      "plant": "celery",
+      "patterns": [
+        "gray fuzzy mold on leaves and stems",
+        "leaf blight",
+        "stem lesions"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis blight in celery is caused by Botrytis cinerea. Symptoms include gray fuzzy mold on leaves and stems, leaf blight, and stem lesions. Control by improving air circulation, removing infected tissues, and fungicide application."
+        }
+      ]
+    },
+    {
+      "tag": "celery_aphids",
+      "plant": "celery",
+      "patterns": [
+        "clusters of small green or black insects on stems",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold growth"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest celery causing sap sucking, leaf curling, sticky honeydew secretion, and sooty mold growth. Control aphids with insecticidal soaps, neem oil, or systemic insecticides and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "celery_caterpillars",
+      "plant": "celery",
+      "patterns": [
+        "holes in leaves",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on celery leaves causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    },
+    {
+      "tag": "asparagus_rust",
+      "plant": "asparagus",
+      "patterns": [
+        "orange to brown pustules on stems and spears",
+        "yellow spots on foliage",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Asparagus rust is caused by Puccinia asparagi. Symptoms include orange to brown rust pustules on stems and spears, yellow spots on foliage, and premature leaf drop. Control by applying fungicides, removing infected plant debris, and practicing crop rotation."
+        }
+      ]
+    },
+    {
+      "tag": "asparagus_fusarium_wilt",
+      "plant": "asparagus",
+      "patterns": [
+        "wilting spears",
+        "yellowing and browning of foliage",
+        "vascular discoloration",
+        "stunted growth"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt in asparagus is caused by Fusarium oxysporum f.sp. asparagi. Symptoms include wilting spears, yellowing and browning of foliage, vascular discoloration, and stunted growth. Control by using disease-free crowns, crop rotation, and fungicide treatments."
+        }
+      ]
+    },
+    {
+      "tag": "asparagus_cercospora_leaf_spot",
+      "plant": "asparagus",
+      "patterns": [
+        "small circular spots with gray centers",
+        "dark margins on stems and leaves",
+        "yellowing and leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Cercospora leaf spot in asparagus is caused by Cercospora asparagi. Symptoms include small circular spots with gray centers and dark margins on stems and leaves causing yellowing and leaf drop. Control by removing infected debris and applying fungicides."
+        }
+      ]
+    },
+    {
+      "tag": "asparagus_bacterial_canker",
+      "plant": "asparagus",
+      "patterns": [
+        "sunken cankers on stems",
+        "brown lesions",
+        "wilting and dieback"
+      ],
+      "responses": [
+        {
+          "message": "Bacterial canker in asparagus is caused by Pseudomonas asparagi. Symptoms include sunken cankers on stems, brown lesions, wilting, and dieback. Control by using disease-free planting materials, sanitizing tools, and removing infected plants."
+        }
+      ]
+    },
+    {
+      "tag": "asparagus_aphids",
+      "plant": "asparagus",
+      "patterns": [
+        "clusters of small green or black insects on stems",
+        "sticky honeydew",
+        "leaf curling",
+        "sooty mold development"
+      ],
+      "responses": [
+        {
+          "message": "Aphids infest asparagus causing leaf curling, sticky honeydew, and sooty mold development. Control aphids with insecticidal soaps, neem oil, systemic insecticides, and encourage natural predators."
+        }
+      ]
+    },
+    {
+      "tag": "asparagus_caterpillars",
+      "plant": "asparagus",
+      "patterns": [
+        "holes in fern foliage",
+        "defoliation",
+        "presence of caterpillars"
+      ],
+      "responses": [
+        {
+          "message": "Caterpillars feed on asparagus foliage causing holes and defoliation. Control by handpicking or using biological insecticides like Bacillus thuringiensis (Bt)."
+        }
+      ]
+    }
+  ]
+}

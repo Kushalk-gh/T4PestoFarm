@@ -1,0 +1,381 @@
+  {
+
+  "intents":[
+    {
+      "tag": "apple_scab",
+      "plant": "apple",
+      "patterns": [
+        "olive-green spots on leaves",
+        "black lesions on fruit",
+        "cracked fruit",
+        "premature leaf drop"
+      ],
+      "responses": [
+        {
+          "message": "Apple scab is a common fungal disease caused by Venturia inaequalis. It appears as olive-green to black spots on leaves and fruit, which can lead to cracking. Control by using fungicide sprays, removing fallen leaves in the autumn, and selecting scab-resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "apple_codling_moth",
+      "plant": "apple",
+      "patterns": [
+        "holes in fruit",
+        "tunnels in fruit core",
+        "larvae inside the apple",
+        "frass (insect waste) near holes"
+      ],
+      "responses": [
+        {
+          "message": "The codling moth is a major pest for apples. Larvae tunnel into the fruit, making them unmarketable. Management includes applying insecticide at key times, using pheromone traps to disrupt mating, and removing infested fruit from the tree."
+        }
+      ]
+    },
+    {
+      "tag": "apple_aphids",
+      "plant": "apple",
+      "patterns": [
+        "clusters of small insects on new growth",
+        "curled or distorted leaves",
+        "sticky honeydew",
+        "sooty mold"
+      ],
+      "responses": [
+        {
+          "message": "Aphids are small sap-sucking insects that can cause leaves to curl and stunt new growth. They excrete sticky honeydew which attracts sooty mold. Control by spraying with insecticidal soap or neem oil, and encouraging natural predators like ladybugs."
+        }
+      ]
+    },
+    {
+      "tag": "apple_fire_blight",
+      "plant": "apple",
+      "patterns": [
+        "blossoms and shoots suddenly turn brown or black",
+        "shepherd's crook shape on new shoots",
+        "cankers on branches",
+        "bacterial ooze"
+      ],
+      "responses": [
+        {
+          "message": "Fire blight is a serious bacterial disease of apples. Infected areas appear scorched, and new shoots often form a characteristic 'shepherd's crook.' Control by pruning infected branches at least 12 inches below the visible damage, and applying antibiotic sprays during flowering."
+        }
+      ]
+    },
+    {
+      "tag": "banana_black_sigatoka",
+      "plant": "banana",
+      "patterns": [
+        "yellow streaks on leaves",
+        "dark brown to black spots on leaves",
+        "leaf death",
+        "reduced fruit production"
+      ],
+      "responses": [
+        {
+          "message": "Black Sigatoka is a widespread fungal disease caused by Pseudocercospora fijiensis. It causes yellow streaks that develop into large, black spots on the leaves, leading to premature leaf death and reduced fruit yield. Control includes applying specific fungicides, pruning and removing affected leaves, and using resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "banana_panama_disease",
+      "plant": "banana",
+      "patterns": [
+        "yellowing and wilting of older leaves",
+        "splitting of the pseudostem",
+        "vascular discoloration",
+        "plant death"
+      ],
+      "responses": [
+        {
+          "message": "Panama disease (Fusarium wilt) is a destructive soil-borne fungal disease caused by Fusarium oxysporum f.sp. cubense. Symptoms start with wilting and yellowing of the lower leaves and can lead to the entire plant dying. There is no effective chemical control; management relies on sanitation, quarantines, and planting resistant varieties."
+        }
+      ]
+    },
+    {
+      "tag": "banana_weevil",
+      "plant": "banana",
+      "patterns": [
+        "tunnels in the corm and pseudostem",
+        "weakened plant",
+        "poor anchorage",
+        "reduced yield"
+      ],
+      "responses": [
+        {
+          "message": "The banana weevil is a serious insect pest. Larvae tunnel through the corm and pseudostem, weakening the plant and making it susceptible to toppling. Control includes using weevil-free planting material, trapping, and applying insecticides to the base of the plant."
+        }
+      ]
+    },
+    {
+      "tag": "cherry_leaf_spot",
+      "plant": "cherry",
+      "patterns": [
+        "small purple or red spots on leaves",
+        "leaf yellowing and drop",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Cherry leaf spot is a fungal disease caused by Blumeriella jaapii. It presents as small, circular purple to red spots on leaves, which then turn yellow and drop prematurely. Control by applying fungicides at bud break and every 7-10 days after rain, and by sanitizing the area to remove fallen leaves."
+        }
+      ]
+    },
+    {
+      "tag": "cherry_fruit_fly",
+      "plant": "cherry",
+      "patterns": [
+        "maggots in fruit",
+        "soft or sunken spots on fruit",
+        "premature fruit drop"
+      ],
+      "responses": [
+        {
+          "message": "The cherry fruit fly larvae (maggots) feed on the fruit pulp, making the cherries unfit for consumption. Control includes timely application of insecticide sprays as fruit begins to color and using sticky traps to monitor adult flies."
+        }
+      ]
+    },
+    {
+      "tag": "cherry_brown_rot",
+      "plant": "cherry",
+      "patterns": [
+        "soft, brown spots on fruit",
+        "gray fungal growth on fruit",
+        "fruit shriveling into mummies"
+      ],
+      "responses": [
+        {
+          "message": "Brown rot is a fungal disease that affects fruit as it ripens. It causes soft, brown spots that quickly spread, with gray spore masses appearing on the surface. Control with fungicide sprays during the flowering and ripening stages, and by removing and destroying infected fruit."
+        }
+      ]
+    },
+    {
+      "tag": "orange_citrus_greening",
+      "plant": "orange",
+      "patterns": [
+        "mottled leaves",
+        "yellow veins",
+        "stunted growth",
+        "small, misshapen fruit",
+        "bitter fruit"
+      ],
+      "responses": [
+        {
+          "message": "Citrus greening (Huanglongbing) is a devastating bacterial disease spread by the Asian citrus psyllid. It causes mottled leaves, stunted growth, and bitter, misshapen fruit. There is no cure; the focus is on preventing the spread by controlling the psyllid population and removing infected trees."
+        }
+      ]
+    },
+    {
+      "tag": "orange_citrus_canker",
+      "plant": "orange",
+      "patterns": [
+        "raised brown lesions on leaves",
+        "lesions with yellow halo on fruit",
+        "premature fruit drop"
+      ],
+      "responses": [
+        {
+          "message": "Citrus canker is a highly contagious bacterial disease that causes raised, brown lesions on the leaves, stems, and fruit. It can reduce fruit quality and cause premature fruit drop. Control measures include copper-based sprays and pruning out affected branches."
+        }
+      ]
+    },
+    {
+      "tag": "orange_leafminer",
+      "plant": "orange",
+      "patterns": [
+        "winding tunnels in new leaves",
+        "curled or distorted leaves",
+        "silvery trails"
+      ],
+      "responses": [
+        {
+          "message": "The citrus leafminer is a small moth whose larvae tunnel through young leaves, creating characteristic winding 'mines.' This can weaken the tree and make it more susceptible to other diseases. Control with horticultural oils or specific insecticides during the flush of new growth."
+        }
+      ]
+    },
+    {
+      "tag": "strawberry_botrytis_rot",
+      "plant": "strawberry",
+      "patterns": [
+        "soft, brown spots on fruit",
+        "gray, fuzzy mold on fruit",
+        "shriveled fruit"
+      ],
+      "responses": [
+        {
+          "message": "Botrytis fruit rot (gray mold) is a common fungal disease that affects strawberry fruit, causing soft, brown spots that are often covered with a fuzzy gray mold. Control by using fungicide sprays, improving air circulation around plants, and harvesting fruit before it becomes overripe."
+        }
+      ]
+    },
+    {
+      "tag": "strawberry_powdery_mildew",
+      "plant": "strawberry",
+      "patterns": [
+        "white, powdery growth on leaves",
+        "cupped or curled leaves",
+        "red or purple blotches"
+      ],
+      "responses": [
+        {
+          "message": "Powdery mildew is a fungal disease that appears as a white, powdery coating on strawberry leaves, which may cause them to curl upwards. Control with sulfur dust, baking soda solutions, or specific fungicides, and ensure adequate spacing for air flow."
+        }
+      ]
+    },
+    {
+      "tag": "strawberry_weevil",
+      "plant": "strawberry",
+      "patterns": [
+        "severed flower buds",
+        "holes in petals",
+        "reduced fruit set"
+      ],
+      "responses": [
+        {
+          "message": "The strawberry weevil, also known as the 'clipper,' is an insect that cuts the flower buds from the plant, preventing fruit from forming. Control by clearing plant debris where they may overwinter, and using insecticides if the infestation is severe."
+        }
+      ]
+    },
+    {
+      "tag": "mango_anthracnose",
+      "plant": "mango",
+      "patterns": [
+        "black spots on leaves and fruit",
+        "blossom blight",
+        "premature fruit drop",
+        "sunken lesions on fruit"
+      ],
+      "responses": [
+        {
+          "message": "Mango anthracnose is a fungal disease that can cause black spots on leaves, flowers, and fruit, and lead to significant yield loss. Control by using copper-based fungicides, pruning to increase air circulation, and removing infected plant parts."
+        }
+      ]
+    },
+    {
+      "tag": "mango_hopper",
+      "plant": "mango",
+      "patterns": [
+        "honeydew secretion on new growth",
+        "sooty mold",
+        "wilting flowers",
+        "stunted fruit development"
+      ],
+      "responses": [
+        {
+          "message": "Mango hoppers are small insects that suck sap from flowers and new leaves, causing them to wilt and dry. They excrete sticky honeydew which promotes sooty mold. Control by spraying with neem oil or systemic insecticides during the flowering stage."
+        }
+      ]
+    },
+    {
+      "tag": "watermelon_gummy_stem_blight",
+      "plant": "watermelon",
+      "patterns": [
+        "dark brown lesions on stems",
+        "gummy ooze from lesions",
+        "leaf spots",
+        "vine dieback"
+      ],
+      "responses": [
+        {
+          "message": "Gummy stem blight is a serious fungal disease that causes lesions on stems with a characteristic 'gummy' ooze. Control with crop rotation, proper sanitation, and preventive fungicide applications, especially in humid conditions."
+        }
+      ]
+    },
+    {
+      "tag": "watermelon_fusarium_wilt",
+      "plant": "watermelon",
+      "patterns": [
+        "wilting of entire vines",
+        "stunted growth",
+        "vascular discoloration"
+      ],
+      "responses": [
+        {
+          "message": "Fusarium wilt is a soil-borne fungal disease that causes a progressive wilting of the watermelon vine. There is no chemical cure; management involves using resistant varieties, long-term crop rotation, and soil fumigation."
+        }
+      ]
+    },
+    {
+      "tag": "pineapple_mealybug_wilt",
+      "plant": "pineapple",
+      "patterns": [
+        "purpling and reddening of leaves",
+        "wilting leaves",
+        "root decay",
+        "stunted plant growth"
+      ],
+      "responses": [
+        {
+          "message": "Pineapple mealybug wilt is caused by a virus transmitted by mealybugs. Symptoms include wilting and reddening of leaves, and root decay. Control is focused on managing mealybug populations with insecticides and planting virus-free material."
+        }
+      ]
+    },
+    {
+      "tag": "pineapple_heart_rot",
+      "plant": "pineapple",
+      "patterns": [
+        "water-soaked base of leaves",
+        "yellowing and wilting of inner leaves",
+        "foul smell from the plant base"
+      ],
+      "responses": [
+        {
+          "message": "Heart rot is a fungal disease that rots the central part of the pineapple plant. Control by ensuring good soil drainage, avoiding overhead irrigation, and applying fungicides to the plant's 'heart' as a preventive measure."
+        }
+      ]
+    },
+    {
+      "tag": "blueberry_mummy_berry",
+      "plant": "blueberry",
+      "patterns": [
+        "blighted shoots and blossoms",
+        "fruit shriveling and turning salmon-colored",
+        "hard, shriveled 'mummies' on the ground"
+      ],
+      "responses": [
+        {
+          "message": "Mummy berry is a fungal disease that causes shoots to blight and fruit to shrivel into hard, inedible 'mummies.' Control by using fungicides during the budding and flowering stages, and by removing and destroying infected plant material."
+        }
+      ]
+    },
+    {
+      "tag": "blueberry_anthracnose",
+      "plant": "blueberry",
+      "patterns": [
+        "sunken lesions on fruit",
+        "orange or pink spore masses on lesions"
+      ],
+      "responses": [
+        {
+          "message": "Anthracnose fruit rot causes sunken lesions on ripening blueberries. Control by applying fungicides at key growth stages, ensuring good air circulation, and avoiding harvesting wet fruit."
+        }
+      ]
+    },
+    {
+      "tag": "pomegranate_fruit_borer",
+      "plant": "pomegranate",
+      "patterns": [
+        "holes in fruit",
+        "frass near holes",
+        "premature fruit ripening or rotting"
+      ],
+      "responses": [
+        {
+          "message": "The pomegranate fruit borer is a caterpillar that tunnels into the fruit, making it vulnerable to rot. Control involves timely application of insecticides and removing and destroying infested fruit."
+        }
+      ]
+    },
+    {
+      "tag": "pomegranate_leaf_spot",
+      "plant": "pomegranate",
+      "patterns": [
+        "small, dark brown spots on leaves",
+        "leaf yellowing",
+        "defoliation"
+      ],
+      "responses": [
+        {
+          "message": "Leaf spot is a fungal disease that causes small, dark spots on pomegranate leaves, which can lead to premature leaf drop. Control is achieved by pruning to improve air circulation and applying fungicides."
+        }
+      ]
+    }
+  ]
+}
